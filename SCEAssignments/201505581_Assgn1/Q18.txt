@@ -1,0 +1,16 @@
+cat myname.txt ironman
+ls ~/Desktop hulk
+cd ~/Desktop/lab1 ironman
+cat myname.txt captain
+chmod 0777 thor
+chmod 0777 captain
+ls ~/Desktop ironman
+cat myname.txt thor
+cd ~/Desktop/lab1 blackwidow
+cat myname.txt hulk
+chmod 0777 blackwidow
+ls ~/Desktop captain
+chmod 0777 ironman
+cd ~/Desktop/lab1 captain
+chmod 0777 hulk
+ls ~/Desktop thor 

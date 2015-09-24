@@ -1,0 +1,130 @@
+===============================================================================
+Section A :
+
+Q1.grep :
+   grep  searches  the named input FILEs for lines containing a match to the given PATTERN. By default it prints matching lines.
+   egrep :
+   egrep is the  same  as  grep -E. egrep interprets PATTERN as an extended regular expression. With egrep most of metacharacters of ERE are interpreted correctly without escaping. 
+   Hence, It is useful to write more readable patterns.
+   fgrep :
+   fgrep  is  the  same  as grep -F.fgrep interprets  PATTERN  as  a  list  of  fixed  strings, separated by newlines, any of which is to be matched.It can accept such list of patterns from a file.
+   Hence, It is useful to check multiple numbers of patterns at time.
+   regrep :
+   rgrep is the same as grep -r. Read  all  files  under  each  directory,  recursively, following symbolic links only if they are on the command line.
+   Hence, It is useful to find some filename following particular pattern in directory.
+
+
+Q2.a.	   egrep 'India|Africa' /usr/share/dict/words
+Q2.b.1.	   grep '^[aeiou].*' /usr/share/dict/words
+Q2.b.2.	   grep -c '^[aeiou].*' /usr/share/dict/words
+Q2.c.      grep '^[aeiou].*[aeiou]$' /usr/share/dict/words
+Q2.d.      egrep 'aa+' /usr/share/dict/words
+Q2.e.      grep '[[:punct:]]' /usr/share/dict/words
+Q2.f.i.    grep '^[A-Z]' /usr/share/dict/words
+Q2.f.ii.   grep '[A-Z]$' /usr/share/dict/words
+Q2.f.iii.  grep '[A-Z]' /usr/share/dict/words
+Q2.g.      egrep '.{20,}' /usr/share/dict/words
+Q2.h.	   egrep -e '^[^A-Z]{5}$' -e '^[^A-Z]{10}$' /usr/share/dict/words
+Q2.i.      egrep '^(.).*\1$' /usr/share/dict/words
+
+Q3.a.      ls -l | grep -c '^d'
+Q3.b.1.    egrep "\<([[:digit:]][[:digit:]][[:digit:]].){3}[[:digit:]][[:digit:]][[:digit:]]\>" IPAdr.txt
+Q3.b.2.    egrep "\<(([01][0-9][0-9]|2[0-4][0-9]|25[0-5]).){3}([01][0-9][0-9]|2[0-4][0-9]|25[0-5])\>" IPAdr.txt
+Q3.b.3.   egrep "\b(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)" IPAdr.txt
+Q3.c.1&2.  egrep "\<[0-9a-f][0-9a-f](:|-)([0-9a-f][0-9a-f]\1){4}[0-9a-f][0-9a-f]\>" hexadecimal.txt
+Q3.c.3.    ifconfig | egrep "\<[0-9a-f][0-9a-f](:|-)([0-9a-f][0-9a-f]\1){4}[0-9a-f][0-9a-f]\>"
+
+=================================================================================
+Section B :
+
+Q1.a.     sed -nr '/(India|Africa)/p' /usr/share/dict/words
+Q1.b.1.   sed -nr '/^[aeiou].*/p' /usr/share/dict/words
+Q1.b.2.   sed -nr '/^[aeiou].*/p' /usr/share/dict/words | wc -l
+Q1.c.     sed -nr '/^[aeiou].*[aeiou]$/p' /usr/share/dict/words
+Q1.d.     sed -nr '/aa+/p' /usr/share/dict/words
+Q1.e.     sed -nr '/[[:punct:]]/p' /usr/share/dict/words
+Q1.f.i.   sed -nr '/^[A-Z]/p' /usr/share/dict/words
+Q1.f.ii.  sed -nr '/[A-Z]$/p' /usr/share/dict/words
+Q1.f.iii. sed -nr '/[A-Z]/p' /usr/share/dict/words  
+Q1.g.     sed -nr '/.{20,}/p' /usr/share/dict/words
+Q1.h.     sed -nr -e '/^[^A-Z]{5}$/p' -e '/^[^A-Z]{10}$/p' /usr/share/dict/words
+Q1.i      sed -nr '/^(.).*\1$/p' /usr/share/dict/words
+
+Q2.1.   sed -n '/Anycity/w output.txt' SecBQ2.txt
+Q2.2.   sed '/^[aeiouAEIOU]/d' SecBQ2.txt
+Q2.3.1. sed -n '/\/198./p' SecBQ2.txt | sed 's/,.*//' (gives first column)
+Q2.3.2. sed -n '/\/198./p' SecBQ2.txt | sed 's/,.*//' | sed -n '$=' (gives number of rows)
+Q2.4.1. sed 's/[[:digit:]]/?/g' SecBQ2.txt
+Q2.4.2. sed 's/[[:punct:]]/*/g' SecBQ2.txt
+Q2.5.	sed -e 's/\/0\?5\//\/May\//;s/\/0\?1\//\/Jan\//;s/\/11\//\/Nov\//;s/\/12\//\/Dec\//' SecBQ2.txt
+Q2.6.   sed 's/\([^,]*,\)\([^,]*,\)/\2\1/' SecBQ2.txt
+Q2.7.   sed 's/\(.\)\(.*\)\(.\)/\3\2\1/' SecBQ2.txt
+
+Q3. sed -r '/^20/s/\<([0-4]?[0-9]|50)\>/70/2' SecBQ3.txt
+
+Q4. sed '/^[^#{}]/s/.*/    &/' SecBQ4.txt
+
+=================================================================================
+Section C :
+
+Q1.1.a. awk  '{print $1,$2,$5;}' SebCQ1.txt
+Q1.1.b. awk 'FNR<=4 && FNR>1{print $1,$2,$5;}' SecCQ1.txt
+Q1.1.c. awk 'END {print $1,$2,$5;}' SecCQ1.txt
+
+Q1.2.a. awk '{if($2=="M") print;}' SecCQ1.txt > male.txt
+Q1.2.b. awk '{if($2=="F") print;}' SecCQ1.txt > female.txt
+
+Q1.3.   awk '{total=$3+$4+$5; if(NR!=1) print $1,"\t",total;}' SecCQ1.txt
+
+Q1.4.   awk 'BEGIN {max=0; topper="None"} {total=$3+$4+$5; if(total>max) {max=total; topper=$1;}} END {print topper;}' SecCQ1.txt
+
+Q1.5.   awk '
+        BEGIN
+        {	total=0; grade="None"; max=0; min=100; sum =0;
+			print "***Grade Report for the ABC Course***";
+			print "Name","\t","Grade";
+		}
+		{
+			total=$3+$4+$5;
+			if(total>=95 && total<=100) { grade = "A";}
+			else if(total>=90 && total<95) { grade = "A-";}
+			else if(total>=85 && total<90) { grade = "B"; }
+			else if(total>=80 && total<85) { grade = "B-";}
+			else if(total>=75 && total<80) { grade = "C"; }
+			else if(total>=70 && total<75) { grade = "C-";}
+			else if(total>=60 && total<70) { grade = "D"; }
+			else {grade = "F";}
+			if(total>max && NR!=1){ max=total;}
+			if(total<min && NR!=1){ min=total;}
+			sum=sum+total;
+			if(NR!=1){ print $1,"\t",grade;}
+		}
+		END
+		{
+			avg = sum/NR-1;
+			print "total number of students:"," ",NR-1;
+			print "highest marks out of 100:"," ",max;
+			print "lowest marks out of 100:"," ",min;
+			print "avg marks out of 100:"," ",avg;
+			print "***End of Grade Report***";
+		}' SecCQ1.txt
+
+Q2.		awk 'BEGIN {total=0; credits=0;}
+	    {
+	        if($2=="A") { total=total+$3; credits=credits+$3*10; }
+	        else if($2=="A-") { total=total+$3; credits=credits+$3*9; }
+	        else if($2=="B") { total=total+$3; credits=credits+$3*8; }
+	    }
+		END {gpa=credits/total; print gpa;}' SecCQ2.txt
+
+=================================================================================
+Section D :
+
+Q1.   grep -v 'sandwiches' sample | grep 'pizza'
+Q2.   grep 'scripting' * 2> /dev/null
+Q7.a. egrep '^3[01]|[12][0-9]|0?[0-9]$'
+Q7.b. ls -l | grep -v '^d'
+Q7.c  ls -l | grep -v '(Aug|August)$' | grep ' Aug '
+Q9.a. egrep '^(.*)\1$'
+Q9.b  egrep '^[#$@%&]+(.*)\1' AtulAtul.txt 
+Q11.

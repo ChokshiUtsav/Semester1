@@ -1,0 +1,178 @@
+Script started on Thursday 20 August 2015 05:09:41 PM IST
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ touch WinterI sComing.txt AlwaysPayDeby[Kt.txt
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ mkdir -p GOT? Stark/Ned GOT/Lannister
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ mv WinterIsCo ming.txt GOT/Stark?[K/Ned
+mv: cannot move ‘WinterIsComing.txt’ to ‘GOT/Stark/Ned’: No such file or directory
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ ls
+201505581_lab1.txt   AlwaysPayDebt.txt  [0m[01;34mGOT?Stark[0m    WinterIsComing.txt
+201505581_lab1.txt~  [01;34mGOT[0m                temp.script
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ [K]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ mv Wi[KinterIsComing.txt /[KGOT/Stark/Ned
+mv: cannot move ‘WinterIsComing.txt’ to ‘GOT/Stark/Ned’: No such file or directory
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ mv WinterIsComing.txt GOT/Stark/Ned[C/
+mv: cannot move ‘WinterIsComing.txt’ to ‘GOT/Stark/Ned/’: No such file or directory
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ mv WinterIsComing.txt GOT/Stark/Ned/[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcleae
+No command 'cleae' found, did you mean:
+ Command 'clear' from package 'ncurses-bin' (main)
+cleae: command not found
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ cleae[K
+No command 'clea' found, did you mean:
+ Command 'clex' from package 'clex' (universe)
+ Command 'clear' from package 'ncurses-bin' (main)
+clea: command not found
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ clea[Kar
+[H[2J]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ clear[K[K[K[K[Kcd GOT
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/GOTutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/GOT$ ls
+[0m[01;34mLannister[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/GOTutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/GOT$ cd ..
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ ls
+201505581_lab1.txt  201505581_lab1.txt~  AlwaysPayDebt.txt  [0m[01;34mGOT[0m  [01;34mGOT?Stark[0m  temp.script  WinterIsComing.txt
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ lscd ..[3Plscd GOT[1Plear[Kemv WinterIsComing.txt GOT/Stark/Ned/[Kls[Kmv WinterIsComing.txt GOT/Stark/Nedkdir -p GOT?Stark/Ned GOT/Lannister[1P[1@/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krm GI[KOT
+rm: cannot remove ‘GOT’: Is a directory
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ rm GOT-GOTRGOT GOT
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ rm -R GOT[3PGOT[4Plscd ..[3Plsrm GOT-R GOT[Krm -R GOT[3PGOT[4Plscd ..[3Plscd GOT[1Plear[Kemv WinterIsComing.txt GOT/Stark/Ned/[Kls[Kmv WinterIsComing.txt GOT/Stark/Nedkdir -p GOT?Stark/Ned GOT/Lannistertouch WinterIsComing.txt AlwaysPayDebt.txt[6Pmkdir -p GOT?Stark/Ned GOT/Lannister[1P[1@/
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ mkdir -p GOT/Stark/Ned GOT/Lannisterrm -R GOT[K[3PGOT[4Plscd ..[3Plscd GOT[1Plear[Kemv WinterIsComing.txt GOT/Stark/Ned/[K
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ mv WinterIsComing.txt GOT/Stark/Ned[K[K[K[K[K[K[K[K[KLannister[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ka[K[KAlwaysPayDebt.txt GOT/Lannister/
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ cat > GOT/Ned.txt
+I am the one who knocks, but joey doesn't share food, hence its gonna be legen-wait for it-dary,
+legendary...
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ cat >> GOT/Ned.txt
+^^?  Winter is coming again!!
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ cat >> GOT/Ned.txt[1PGOT/Ned.txt[1PGOT/Ned.txt[1PGOT/Ned.txt
+I am the one who knocks, but joey doesn't share food, hence its gonna be legen-wait for it-dary,
+legendary...
+Winter is coming again!!
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ cat GOT/Ned.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcp -R /GOT/Stark/Ned /GOT/Lannister
+cp: cannot stat ‘/GOT/Stark/Ned’: No such file or directory
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ cp -R /GOT/Stark/Ned /GOT/Lannister[1P
+cp: cannot create directory ‘/GOT/Lannister’: No such file or directory
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ cp -R GOT/Stark/Ned /GOT/Lannister[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd GOT
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/GOTutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/GOT$ ls
+[0m[01;34mLannister[0m  Ned.txt  [01;34mStark[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/GOTutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/GOT$ lscd GOTp -R GOT/Stark/Ned /GOT/Lannister[1PGOT/Lannister
+cp: cannot stat ‘GOT/Stark/Ned’: No such file or directory
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/GOTutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/GOT$ cd Stark
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/GOT/Starkutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/GOT/Stark$ ls
+[0m[01;34mNed[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/GOT/Starkutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/GOT/Stark$ cd ..
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/GOTutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/GOT$ cd ..[3Plscd Starkp -R GOT/Stark/Ned GOT/Lannister
+cp: cannot stat ‘GOT/Stark/Ned’: No such file or directory
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/GOTutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/GOT$ cp -R GOT/Stark/Ned GOT/Lannister/ GOT/Lannister
+cp: cannot stat ‘GOT/Stark/Ned/’: No such file or directory
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/GOTutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/GOT$ cd ..
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ cd ..p -R GOT/Stark/Ned/ GOT/Lannister[1P GOT/Lannister[C[C
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ clear
+[H[2J]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ mkdir dir [K
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ touch a b c d e f g h i j k l m n o p q r s t u v w x y z
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ touch 7a_1.txt
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ ls []a]-]m] ][1P][C > f[K71[Ka_1.txt
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ ls [a-m] > 7a_1.txt[5Ptouch[C[C[C[C[C[C[C[C[Ca b c d e f g h i j k l m n o p q r s t u v w x y z7a_1.txt[K[1P_1.txtv_1.txt[1P_1.txtb_1.txt[C[C[C[C[C[C
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ touch 7b_1.txtls [a-m] > 7a_1.txt[1P[1P[1P[1@n[1@-[1@z[C[C[C[C[C[C[C[C[C[1P_1.txtb_1.txt
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ ls -l []c]-]s][C | sort -k 9
+-rw-rw-r-- 1 utsav utsav 0 Aug 20 17:17 c
+-rw-rw-r-- 1 utsav utsav 0 Aug 20 17:17 d
+-rw-rw-r-- 1 utsav utsav 0 Aug 20 17:17 e
+-rw-rw-r-- 1 utsav utsav 0 Aug 20 17:17 f
+-rw-rw-r-- 1 utsav utsav 0 Aug 20 17:17 g
+-rw-rw-r-- 1 utsav utsav 0 Aug 20 17:17 h
+-rw-rw-r-- 1 utsav utsav 0 Aug 20 17:17 i
+-rw-rw-r-- 1 utsav utsav 0 Aug 20 17:17 j
+-rw-rw-r-- 1 utsav utsav 0 Aug 20 17:17 k
+-rw-rw-r-- 1 utsav utsav 0 Aug 20 17:17 l
+-rw-rw-r-- 1 utsav utsav 0 Aug 20 17:17 m
+-rw-rw-r-- 1 utsav utsav 0 Aug 20 17:17 n
+-rw-rw-r-- 1 utsav utsav 0 Aug 20 17:17 o
+-rw-rw-r-- 1 utsav utsav 0 Aug 20 17:17 p
+-rw-rw-r-- 1 utsav utsav 0 Aug 20 17:17 q
+-rw-rw-r-- 1 utsav utsav 0 Aug 20 17:17 r
+-rw-rw-r-- 1 utsav utsav 0 Aug 20 17:17 s
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ ls -dl [][CA]B]C]D][C | ci[Kut -C 31-45
+cut: invalid option -- 'C'
+Try 'cut --help' for more information.
+ls: cannot access [ABCD]: No such file or directory
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ ls -dl [ABCD] | cut -C 31-45[C[1P 31-45c 31-45
+ls: cannot access [ABCD]: No such file or directory
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ cd[K[Kmkdi [Kr A B C D
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ ls
+201505581_lab1.txt   7a_1.txt  a  b  c  d  [0m[01;34mdir[0m  f  [01;34mGOT[0m        h  j  l  n  p  r  t            u  w  y
+201505581_lab1.txt~  7b_1.txt  [01;34mA[0m  [01;34mB[0m  [01;34mC[0m  [01;34mD[0m  e    g  [01;34mGOT?Stark[0m  i  k  m  o  q  s  temp.script  v  x  z
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ lsmkdir A B C Dls -dl [ABCD] | cut -c 31-45
+Aug 20 17:20 A
+Aug 20 17:20 B
+Aug 20 17:20 C
+Aug 20 17:20 D
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ clear
+[H[2J]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ ls -l | tee 9.txt | cat
+total 56
+-rw-rw-r-- 1 utsav utsav   661 Aug 20 17:20 201505581_lab1.txt
+-rw-rw-r-- 1 utsav utsav   645 Aug 20 17:19 201505581_lab1.txt~
+-rw-rw-r-- 1 utsav utsav    26 Aug 20 17:17 7a_1.txt
+-rw-rw-r-- 1 utsav utsav    26 Aug 20 17:18 7b_1.txt
+-rw-rw-r-- 1 utsav utsav     0 Aug 20 17:17 a
+drwxrwxr-x 2 utsav utsav  4096 Aug 20 17:20 A
+-rw-rw-r-- 1 utsav utsav     0 Aug 20 17:17 b
+drwxrwxr-x 2 utsav utsav  4096 Aug 20 17:20 B
+-rw-rw-r-- 1 utsav utsav     0 Aug 20 17:17 c
+drwxrwxr-x 2 utsav utsav  4096 Aug 20 17:20 C
+-rw-rw-r-- 1 utsav utsav     0 Aug 20 17:17 d
+drwxrwxr-x 2 utsav utsav  4096 Aug 20 17:20 D
+drwxrwxr-x 2 utsav utsav  4096 Aug 20 17:17 dir
+-rw-rw-r-- 1 utsav utsav     0 Aug 20 17:17 e
+-rw-rw-r-- 1 utsav utsav     0 Aug 20 17:17 f
+-rw-rw-r-- 1 utsav utsav     0 Aug 20 17:17 g
+drwxrwxr-x 4 utsav utsav  4096 Aug 20 17:13 GOT
+drwxrwxr-x 3 utsav utsav  4096 Aug 20 17:10 GOT?Stark
+-rw-rw-r-- 1 utsav utsav     0 Aug 20 17:17 h
+-rw-rw-r-- 1 utsav utsav     0 Aug 20 17:17 i
+-rw-rw-r-- 1 utsav utsav     0 Aug 20 17:17 j
+-rw-rw-r-- 1 utsav utsav     0 Aug 20 17:17 k
+-rw-rw-r-- 1 utsav utsav     0 Aug 20 17:17 l
+-rw-rw-r-- 1 utsav utsav     0 Aug 20 17:17 m
+-rw-rw-r-- 1 utsav utsav     0 Aug 20 17:17 n
+-rw-rw-r-- 1 utsav utsav     0 Aug 20 17:17 o
+-rw-rw-r-- 1 utsav utsav     0 Aug 20 17:17 p
+-rw-rw-r-- 1 utsav utsav     0 Aug 20 17:17 q
+-rw-rw-r-- 1 utsav utsav     0 Aug 20 17:17 r
+-rw-rw-r-- 1 utsav utsav     0 Aug 20 17:17 s
+-rw-rw-r-- 1 utsav utsav     0 Aug 20 17:17 t
+-rw-rw-r-- 1 utsav utsav 12288 Aug 20 17:19 temp.script
+-rw-rw-r-- 1 utsav utsav     0 Aug 20 17:17 u
+-rw-rw-r-- 1 utsav utsav     0 Aug 20 17:17 v
+-rw-rw-r-- 1 utsav utsav     0 Aug 20 17:17 w
+-rw-rw-r-- 1 utsav utsav     0 Aug 20 17:17 x
+-rw-rw-r-- 1 utsav utsav     0 Aug 20 17:17 y
+-rw-rw-r-- 1 utsav utsav     0 Aug 20 17:17 z
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ clear
+[H[2J]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ exit
+exit
+
+Script done on Thursday 20 August 2015 05:21:23 PM IST
+Script started on Thursday 20 August 2015 05:27:17 PM IST
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ exitclearls -l | tee 9.txt | cat[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kclear
+[H[2J]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ clear[1Pexitclearls -l | tee 9.txt | cat[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+201505581_lab1.script  201505581_lab1.txt~  7b_1.txt  a  b  c  d  [0m[01;34mdir[0m  f  [01;34mGOT[0m        h  j  l  n  p  r  t            u  w  y
+201505581_lab1.txt     7a_1.txt             9.txt     [01;34mA[0m  [01;34mB[0m  [01;34mC[0m  [01;34mD[0m  e    g  [01;34mGOT?Stark[0m  i  k  m  o  q  s  temp.script  v  x  z
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ mv temp.script [K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krm 201505581_lab1.script[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+exit
+
+Script done on Thursday 20 August 2015 05:28:32 PM IST
+Script started on Thursday 20 August 2015 05:29:10 PM IST
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ ls
+201505581_lab1.txt   7a_1.txt  9.txt  [0m[01;34mA[0m  [01;34mB[0m  [01;34mC[0m  [01;34mD[0m    e  g    [01;34mGOT?Stark[0m  i  k  m  o  q  s  temp.script  v  x  z
+201505581_lab1.txt~  7b_1.txt  a      b  c  d  [01;34mdir[0m  f  [01;34mGOT[0m  h          j  l  n  p  r  t  u            w  y
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ touch .txtp.txte.txtr.txtm.txti.txts.txts.txti.txto.txtn.txts.txt
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ chmod r=0[Ko permissions.txt 
+chmod: invalid mode: ‘r=o’
+Try 'chmod --help' for more information.
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ chmod r=o permissions.txt [C[1P[1P[1P[1@o[1@=[1@r
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ ls
+201505581_lab1.txt   7a_1.txt  9.txt  [0m[01;34mA[0m  [01;34mB[0m  [01;34mC[0m  [01;34mD[0m    e  g    [01;34mGOT?Stark[0m  i  k  m  o  permissions.txt  r  t            u  w  y
+201505581_lab1.txt~  7b_1.txt  a      b  c  d  [01;34mdir[0m  f  [01;34mGOT[0m  h          j  l  n  p  q                s  temp.script  v  x  z
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ ls[C -l permissions.txt 
+-rw-rw-r-- 1 utsav utsav 0 Aug 20 17:29 permissions.txt
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ ls -l permissions.txt [Kchmod o=r permissions.txt [C[1P[1@u
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ chmod u=r permissions.txt [4Pls -l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+-r--rw-r-- 1 utsav utsav 0 Aug 20 17:29 permissions.txt
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignmentsutsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments$ ls -l permissions.txt [4@chmod u=r[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+exit
+
+Script done on Thursday 20 August 2015 05:34:45 PM IST

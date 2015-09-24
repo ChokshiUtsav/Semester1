@@ -1,0 +1,6 @@
+Hi
+cat: a: Is a directory
+cat: b: Is a directory
+how are you
+Hello
+cat: z: Is a directory

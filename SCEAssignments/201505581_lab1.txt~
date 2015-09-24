@@ -1,0 +1,33 @@
+1 touch WinterIsComing.txt AlwaysPayDebt.txt
+
+2 mkdir -p GOT/Stark/Ned GOT/Lannister
+
+3 mv WinterIsComing.txt GOT/Stark/Ned
+3 mv AlwaysPayDebt.txt GOT/Lannister
+
+4 cat > GOT/Ned.txt
+I am the one who knocks, but joey doesn't share food, hence its gonna be legen-wait for it-dary,
+legendary...(ctrl+D)
+
+5 cat >> GOT/Ned.txt
+Winter is coming again!(ctrl+D)
+
+6 cp -R /GOT/Stark/Ned /GOT/Lannister
+
+7 mkdir dir
+  touch a b c d e f g h i j k l m n o p q r s t u v w x y z
+  
+  touch 7a_1.txt
+  ls [a-m] > 7a_1.txt
+  touch 7b_2.txt
+  ls [n-z] > 7b_2.txt
+
+8 ls -l [c-s] | sort -k 9
+
+9 mkdir A B C D
+  ls -dl [ABCD] | cut -c 31-45
+
+10 ls -l | tee 9.txt | cat
+  
+  
+

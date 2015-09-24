@@ -1,0 +1,1693 @@
+Script started on Sunday 30 August 2015 10:06:29 AM IST
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ sudo adduser Barney
+[sudo] password for utsav: 
+adduser: Please enter a username matching the regular expression configured
+via the NAME_REGEX[_SYSTEM] configuration variable.  Use the `--force-badname'
+option to relax this check or reconfigure NAME_REGEX.
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ sudo adduser Barney[1Parneybarney
+Adding user `barney' ...
+Adding new group `barney' (1003) ...
+Adding new user `barney' (1002) with group `barney' ...
+Creating home directory `/home/barney' ...
+Copying files from `/etc/skel' ...
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+Changing the user information for barney
+Enter the new value, or press ENTER for the default
+	Full Name []: 
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] Y
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ touch legendary
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ sudo chown barney legendary
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ clear
+[H[2J]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ exit
+exit
+
+Script done on Sunday 30 August 2015 10:08:36 AM IST
+Script started on Sunday 30 August 2015 10:08:52 AM IST
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ sudo addgroup WaitForIt
+[sudo] password for utsav: 
+addgroup: Please enter a username matching the regular expression configured
+via the NAME_REGEX[_SYSTEM] configuration variable.  Use the `--force-badname'
+option to relax this check or reconfigure NAME_REGEX.
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ sudo addgroup WaitForIt[C[1PaitForItwaitForIt
+addgroup: Please enter a username matching the regular expression configured
+via the NAME_REGEX[_SYSTEM] configuration variable.  Use the `--force-badname'
+option to relax this check or reconfigure NAME_REGEX.
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ sudo addgroup waitForIt[1PorItforIt[C[C[C
+addgroup: Please enter a username matching the regular expression configured
+via the NAME_REGEX[_SYSTEM] configuration variable.  Use the `--force-badname'
+option to relax this check or reconfigure NAME_REGEX.
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ sudo addgroup waitforIt-waitforIt-waitforItfwaitforItowaitforItrwaitforItcwaitforItewaitforIt-waitforItbwaitforItawaitforItdwaitforItnwaitforItawaitforItmwaitforItewaitforIt waitforIt[C[C[1PaitforItWaitforIt[C[C[C[C[1PorItForIt
+Allowing use of questionable username.
+Adding group `WaitForIt' (GID 1004) ...
+Done.
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ sudo chgrp WaitForIt legendary
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ ls -l
+total 24
+-rw-rw-r-- 1 utsav  utsav     2606 Aug 30 10:08 201505581_1.txt
+-rw-rw-r-- 1 utsav  utsav     1980 Aug 30 10:08 201505581_Assgn1.script
+-rw-rw-r-- 1 utsav  utsav      108 Aug 24 05:36 check
+drwxrwxr-x 5 utsav  utsav     4096 Aug 30 04:04 [0m[01;34mfolder[0m
+-rw-rw-r-- 1 barney WaitForIt    0 Aug 30 10:08 legendary
+-rw-rw-r-- 1 utsav  utsav       54 Aug 28 01:08 list_item
+-rw-rw-r-- 1 utsav  utsav       69 Aug 28 04:48 temp.txt~
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ exit
+Script done on Sunday 30 August 2015 10:10:28 AM IST
+Script started on Sunday 30 August 2015 10:12:36 AM IST
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ ls -al
+total 40
+drwxrwxr-x  3 utsav  utsav     4096 Aug 30 10:08 [0m[01;34m.[0m
+drwxrwxr-x 11 utsav  utsav     4096 Aug 27 23:13 [01;34m..[0m
+-rw-rw-r--  1 utsav  utsav     2606 Aug 30 10:08 201505581_1.txt
+-rw-rw-r--  1 utsav  utsav     5052 Aug 30 10:10 201505581_Assgn1.script
+-rw-rw-r--  1 utsav  utsav      108 Aug 24 05:36 check
+drwxrwxr-x  5 utsav  utsav     4096 Aug 30 04:04 [01;34mfolder[0m
+-rw-rw-r--  1 barney WaitForIt    0 Aug 30 10:08 legendary
+-rw-rw-r--  1 utsav  utsav       54 Aug 28 01:08 list_item
+-rw-rw-r--  1 utsav  utsav        0 Aug 28 05:01 .meeting
+-rw-rw-r--  1 utsav  utsav       30 Aug 28 05:01 .meeting point
+-rw-rw-r--  1 utsav  utsav       69 Aug 28 04:48 temp.txt~
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ ls -al | tail -n+2
+drwxrwxr-x  3 utsav  utsav     4096 Aug 30 10:08 .
+drwxrwxr-x 11 utsav  utsav     4096 Aug 27 23:13 ..
+-rw-rw-r--  1 utsav  utsav     2606 Aug 30 10:08 201505581_1.txt
+-rw-rw-r--  1 utsav  utsav     5052 Aug 30 10:10 201505581_Assgn1.script
+-rw-rw-r--  1 utsav  utsav      108 Aug 24 05:36 check
+drwxrwxr-x  5 utsav  utsav     4096 Aug 30 04:04 folder
+-rw-rw-r--  1 barney WaitForIt    0 Aug 30 10:08 legendary
+-rw-rw-r--  1 utsav  utsav       54 Aug 28 01:08 list_item
+-rw-rw-r--  1 utsav  utsav        0 Aug 28 05:01 .meeting
+-rw-rw-r--  1 utsav  utsav       30 Aug 28 05:01 .meeting point
+-rw-rw-r--  1 utsav  utsav       69 Aug 28 04:48 temp.txt~
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ ls -al | tail -n+2 | tr -s '' '[C
+drwxrwxr-x 3 utsav utsav 4096 Aug 30 10:08 .
+drwxrwxr-x 11 utsav utsav 4096 Aug 27 23:13 ..
+-rw-rw-r-- 1 utsav utsav 2606 Aug 30 10:08 201505581_1.txt
+-rw-rw-r-- 1 utsav utsav 5052 Aug 30 10:10 201505581_Assgn1.script
+-rw-rw-r-- 1 utsav utsav 108 Aug 24 05:36 check
+drwxrwxr-x 5 utsav utsav 4096 Aug 30 04:04 folder
+-rw-rw-r-- 1 barney WaitForIt 0 Aug 30 10:08 legendary
+-rw-rw-r-- 1 utsav utsav 54 Aug 28 01:08 list_item
+-rw-rw-r-- 1 utsav utsav 0 Aug 28 05:01 .meeting
+-rw-rw-r-- 1 utsav utsav 30 Aug 28 05:01 .meeting point
+-rw-rw-r-- 1 utsav utsav 69 Aug 28 04:48 temp.txt~
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ clear
+[H[2J]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ clearls -al | tail -n+2 | tr -s ' '|cut -d '' '[C -f 2
+3
+11
+1
+1
+1
+5
+1
+1
+1
+1
+1
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ ls -al | tail -n+2 | tr -s ' '|cut -d ' ' -f 2 \[K| sort -n
+1
+1
+1
+1
+1
+1
+1
+1
+3
+5
+11
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ man sort
+[?1049h[?1h=SORT(1)                                                         User Commands                                                         SORT(1)[m
+[m
+[1mNAME[0m[m
+       sort - sort lines of text files[m
+[m
+[1mSYNOPSIS[0m[m
+       [1msort[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+       [1msort[0m [[4mOPTION[24m]... [4m--files0-from=F[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       Write sorted concatenation of all FILE(s) to standard output.[m
+[m
+       Mandatory arguments to long options are mandatory for short options too.  Ordering options:[m
+[m
+       [1m-b[0m, [1m--ignore-leading-blanks[0m[m
+              ignore leading blanks[m
+[m
+       [1m-d[0m, [1m--dictionary-order[0m[m
+              consider only blanks and alphanumeric characters[m
+[m
+       [1m-f[0m, [1m--ignore-case[0m[m
+              fold lower case to upper case characters[m
+[m
+       [1m-g[0m, [1m--general-numeric-sort[0m[m
+              compare according to general numerical value[m
+[m
+       [1m-i[0m, [1m--ignore-nonprinting[0m[m
+              consider only printable characters[m
+[m
+       [1m-M[0m, [1m--month-sort[0m[m
+              compare (unknown) < 'JAN' < ... < 'DEC'[m
+[m
+       [1m-h[0m, [1m--human-numeric-sort[0m[m
+              compare human readable numbers (e.g., 2K 1G)[m
+[m
+       [1m-n[0m, [1m--numeric-sort[0m[m
+              compare according to string numerical value[m
+[m
+       [1m-R[0m, [1m--random-sort[0m[m
+              sort by random hash of keys[m
+[7m Manual page sort(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ man sortls -al | tail -n+2 | tr -s ' '|cut -d ' ' -f 2 | sort -n | uniq
+1
+3
+5
+11
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ exit
+exit
+
+Script done on Sunday 30 August 2015 10:13:56 AM IST
+Script started on Sunday 30 August 2015 10:14:08 AM IST
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ man echo > echo.txt
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ split [K[K[K[K[K[Kman split
+[?1049h[?1h=SPLIT(1)                                                        User Commands                                                        SPLIT(1)[m
+[m
+[1mNAME[0m[m
+       split - split a file into pieces[m
+[m
+[1mSYNOPSIS[0m[m
+       [1msplit[0m [[4mOPTION[24m]... [[4mINPUT[24m [[4mPREFIX[24m]][m
+[m
+[1mDESCRIPTION[0m[m
+       Output  fixed-size  pieces of INPUT to PREFIXaa, PREFIXab, ...; default size is 1000 lines, and default PREFIX is 'x'.  With no INPUT,[m
+       or when INPUT is -, read standard input.[m
+[m
+       Mandatory arguments to long options are mandatory for short options too.[m
+[m
+       [1m-a[0m, [1m--suffix-length[0m=[4mN[24m[m
+              generate suffixes of length N (default 2)[m
+[m
+       [1m--additional-suffix[0m=[4mSUFFIX[24m[m
+              append an additional SUFFIX to file names.[m
+[m
+       [1m-b[0m, [1m--bytes[0m=[4mSIZE[24m[m
+              put SIZE bytes per output file[m
+[m
+       [1m-C[0m, [1m--line-bytes[0m=[4mSIZE[24m[m
+              put at most SIZE bytes of lines per output file[m
+[m
+       [1m-d[0m, [1m--numeric-suffixes[0m[=[4mFROM[24m][m
+              use numeric suffixes instead of alphabetic.  FROM changes the start value (default 0).[m
+[m
+       [1m-e[0m, [1m--elide-empty-files[0m[m
+              do not generate empty output files with '-n'[m
+[m
+       [1m--filter[0m=[4mCOMMAND[24m[m
+              write to shell COMMAND; file name is $FILE[m
+[m
+       [1m-l[0m, [1m--lines[0m=[4mNUMBER[24m[m
+              put NUMBER lines per output file[m
+[m
+       [1m-n[0m, [1m--number[0m=[4mCHUNKS[24m[m
+              generate CHUNKS output files.  See below[m
+[7m Manual page split(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page split(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-u[0m, [1m--unbuffered[0m[m
+[7m Manual page split(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              immediately copy input to output with '-n r/...'[m
+[7m Manual page split(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page split(1) line 7 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ man splitecho > echo.txt[10Psplit[K[K[K[K[K[K[K[K[Ksplit -l 10 -a 4 --numeric-suffixes [K=5 echo.txt
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ ls
+201505581_1.txt          check     [0m[01;34mfolder[0m     list_item  x0005  x0007  x0009  x0011
+201505581_Assgn1.script  echo.txt  legendary  temp.txt~  x0006  x0008  x0010  x0012
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ ls x*
+x0005  x0006  x0007  x0008  x0009  x0010  x0011  x0012
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ exit
+exit
+
+Script done on Sunday 30 August 2015 10:15:16 AM IST
+Script started on Sunday 30 August 2015 10:15:24 AM IST
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ ls {}x}0}0}0}[}]}5]}-]}9]}[C,}x}0}0}1}[}]}1]}-]}4]}[C[C
+x0005  x0006  x0007  x0008  x0009  x0011  x0012
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ ls {x000[5-9],x001[1-4]}[1P-4]}0-4]}
+x0005  x0006  x0007  x0008  x0009  x0010  x0011  x0012
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ ls
+201505581_1.txt          check     [0m[01;34mfolder[0m     list_item  x0005  x0007  x0009  x0011
+201505581_Assgn1.script  echo.txt  legendary  temp.txt~  x0006  x0008  x0010  x0012
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ clear
+[H[2J]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ wc -lc[K[Klcm[K[K[KLcm [K[K[K[K[K[K[K[Kman wc
+[?1049h[?1h=WC(1)                                                           User Commands                                                           WC(1)[m
+[m
+[1mNAME[0m[m
+       wc - print newline, word, and byte counts for each file[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mwc[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+       [1mwc[0m [[4mOPTION[24m]... [4m--files0-from=F[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       Print  newline,  word, and byte counts for each FILE, and a total line if more than one FILE is specified.  With no FILE, or when FILE[m
+       is -, read standard input.  A word is a non-zero-length sequence of characters delimited by white space.  The  options  below  may  be[m
+       used to select which counts are printed, always in the following order: newline, word, character, byte, maximum line length.[m
+[m
+       [1m-c[0m, [1m--bytes[0m[m
+              print the byte counts[m
+[m
+       [1m-m[0m, [1m--chars[0m[m
+              print the character counts[m
+[m
+       [1m-l[0m, [1m--lines[0m[m
+              print the newline counts[m
+[m
+       [1m--files0-from[0m=[4mF[24m[m
+              read input from the files specified by NUL-terminated names in file F; If F is - then read names from standard input[m
+[m
+       [1m-L[0m, [1m--max-line-length[0m[m
+              print the length of the longest line[m
+[m
+       [1m-w[0m, [1m--words[0m[m
+              print the word counts[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+[1mAUTHOR[0m[m
+       Written by Paul Rubin and David MacKenzie.[m
+[m
+[7m Manual page wc(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mREPORTING[0m [1mBUGS[0m[m
+[7m Manual page wc(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Report wc bugs to bug-coreutils@gnu.org[m
+[7m Manual page wc(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GNU coreutils home page: <http://www.gnu.org/software/coreutils/>[m
+[7m Manual page wc(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       General help using GNU software: <http://www.gnu.org/gethelp/>[m
+[7m Manual page wc(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Report wc translation bugs to <http://translationproject.org/team/>[m
+[7m Manual page wc(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page wc(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mCOPYRIGHT[0m[m
+[7m Manual page wc(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Copyright © 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.[m
+[7m Manual page wc(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       This is free software: you are free to change and redistribute it.  There is NO WARRANTY, to the extent permitted by law.[m
+[7m Manual page wc(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page wc(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mSEE[0m [1mALSO[0m[m
+[7m Manual page wc(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The full documentation for [1mwc[0m is maintained as a Texinfo manual.  If the [1minfo[0m and [1mwc[0m programs are properly installed at your site, the[m
+[7m Manual page wc(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       command[m
+[7m Manual page wc(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page wc(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1minfo[0m [1mcoreutils[0m [1m'wc[0m [1minvocation'[0m[m
+[7m Manual page wc(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page wc(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       should give you access to the complete manual.[m
+[7m Manual page wc(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page wc(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[KGNU coreutils 8.21                                               January 2015                                                           WC(1)[m
+[7m Manual page wc(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 22/63 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 22/63 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 22/63 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 22/63 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 22/63 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 22/63 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 22/63 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 22/63 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 22/63 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 22/63 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 22/63 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 22/63 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 22/63 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 22/63 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              print the character counts[m
+[41;1H[K[7m Manual page wc(1) line 21/63 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-m[0m, [1m--chars[0m[m
+[41;1H[K[7m Manual page wc(1) line 20/63 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[41;1H[K[7m Manual page wc(1) line 19/63 93% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              print the byte counts[m
+[41;1H[K[7m Manual page wc(1) line 18/63 93% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-c[0m, [1m--bytes[0m[m
+[41;1H[K[7m Manual page wc(1) line 17/63 89% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[41;1H[K[7m Manual page wc(1) line 16/63 89% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       used to select which counts are printed, always in the following order: newline, word, character, byte, maximum line length.[m
+[41;1H[K[7m Manual page wc(1) line 15/63 89% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       is -, read standard input.  A word is a non-zero-length sequence of characters delimited by white space.  The  options  below  may  be[m
+[41;1H[K[7m Manual page wc(1) line 14/63 83% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Print  newline,  word, and byte counts for each FILE, and a total line if more than one FILE is specified.  With no FILE, or when FILE[m
+[41;1H[K[7m Manual page wc(1) line 13/63 82% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m[m
+[41;1H[K[7m Manual page wc(1) line 12/63 82% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[41;1H[K[7m Manual page wc(1) line 11/63 77% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mwc[0m [[4mOPTION[24m]... [4m--files0-from=F[24m[m
+[41;1H[K[7m Manual page wc(1) line 10/63 72% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mwc[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[41;1H[K[7m Manual page wc(1) line 9/63 71% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mSYNOPSIS[0m[m
+[41;1H[K[7m Manual page wc(1) line 8/63 71% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[41;1H[K[7m Manual page wc(1) line 7/63 69% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       wc - print newline, word, and byte counts for each file[m
+[41;1H[K[7m Manual page wc(1) line 6/63 66% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mNAME[0m[m
+[41;1H[K[7m Manual page wc(1) line 5/63 63% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[41;1H[K[7m Manual page wc(1) line 4/63 62% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HMWC(1)                                                           User Commands                                                           WC(1)[m
+[41;1H[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/63 60% (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ wc -LCm [1P[1@c[C[C { } [1@x[1@0[1@0[1@0[1@[[1@][1@5[1@6[1@8[1@9[C[1@,[1@x[1@0[1@0[1@1[1@[[1@][1@0[1@-[1@4[C[C
+ 263  263  141 x0005
+ 237  237   67 x0006
+ 137  137   39 x0008
+ 208  208   60 x0009
+ 397  397  141 x0010
+ 593  594  141 x0011
+ 248  248  141 x0012
+2083 2084  141 total
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ rm x*[]0]-]9][C
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ ls
+201505581_1.txt  201505581_Assgn1.script  check  echo.txt  [0m[01;34mfolder[0m  legendary  list_item  temp.txt~
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ exit
+exit
+
+Script done on Sunday 30 August 2015 10:19:21 AM IST
+Script started on Sunday 30 August 2015 10:19:35 AM IST
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ echo $PS1
+\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ PS1
+PS1: command not found
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ PS1[C[C[C = ''S'C'E':'$'[C
+PS1: command not found
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ PS1 = 'SCE:$'[1@$
+\[\e]0;\u@\h:: command not found
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ $PS1 = 'SCE:$'\'SCE:$'[1P'SCE:$'[1P'SCE:$'[1P='SCE:$'
+\[\e]0;\u@\h:: command not found
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1utsav@utsav-Dell-System-Inspiron-N4110:~/Documents/SCEAssignments/Assignment1$ $PS1='SCE:$'[1PPS1='SCE:$'
+SCE:$sudo gedit .~[K[K~/.bashrc
+[sudo] password for utsav: 
+SCE:$sudo gedit ~/.bashrc[C[C[C[C[C[9PPS1='SCE:$'[C[C[C[C[Csudo gedit ~/.bashrc
+
+(gedit:3302): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(gedit:3302): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+SCE:$clear
+[H[2JSCE:$mkdir $DIR
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+SCE:$mkdir $DIR\$DIR
+SCE:$ls
+201505581_1.txt  201505581_Assgn1.script  check  [0m[01;34m$DIR[0m  echo.txt  [01;34mfolder[0m  legendary  list_item  temp.txt~
+SCE:$ls -l
+total 64
+-rw-rw-r-- 1 utsav  utsav      2606 Aug 30 10:08 201505581_1.txt
+-rw-rw-r-- 1 utsav  utsav     30795 Aug 30 10:19 201505581_Assgn1.script
+-rw-rw-r-- 1 utsav  utsav       108 Aug 24 05:36 check
+drwxrwxr-x 2 utsav  utsav      4096 Aug 30 10:21 [0m[01;34m$DIR[0m
+-rw-rw-r-- 1 utsav  utsav      2313 Aug 30 10:14 echo.txt
+drwxrwxr-x 5 utsav  utsav      4096 Aug 30 04:04 [01;34mfolder[0m
+-rw-rw-r-- 1 barney WaitForIt     0 Aug 30 10:08 legendary
+-rw-rw-r-- 1 utsav  utsav        54 Aug 28 01:08 list_item
+-rw-rw-r-- 1 utsav  utsav        69 Aug 28 04:48 temp.txt~
+SCE:$exi
+No command 'exi' found, did you mean:
+ Command 'esi' from package 'atm-tools' (universe)
+ Command 'kexi' from package 'kexi' (universe)
+ Command 'exif' from package 'exif' (universe)
+ Command 'exp' from package 'alliance' (universe)
+ Command 'axi' from package 'afnix' (universe)
+ Command 'exim' from package 'exim4-daemon-light' (main)
+ Command 'exim' from package 'exim4-daemon-heavy' (main)
+ Command 'ex' from package 'vim-gtk' (universe)
+ Command 'ex' from package 'vim' (main)
+ Command 'ex' from package 'vim-athena' (universe)
+ Command 'ex' from package 'vim-tiny' (main)
+ Command 'ex' from package 'nvi' (universe)
+ Command 'ex' from package 'vim-gnome' (main)
+ Command 'ex' from package 'vim-nox' (universe)
+exi: command not found
+SCE:$exit
+exit
+
+Script done on Sunday 30 August 2015 10:22:20 AM IST
+Script started on Sunday 30 August 2015 10:22:23 AM IST
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cat check [K.[K[K[K[K[K[K[K[K[K[Kls
+201505581_1.txt  201505581_Assgn1.script  check  [0m[01;34m$DIR[0m  echo.txt  [01;34mfolder[0m  legendary  list_item  temp.txt~
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cat check 
+q         21  3		ausd
+b    12		asb		cnuc
+x	3	sad										dac
+p 2    bla													agni
+y 0		kira					tis
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cat check  [K| tr -s '' '[C
+q 21 3		ausd
+b 12		asb		cnuc
+x	3	sad										dac
+p 2 bla													agni
+y 0		kira					tis
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cat check | tr -s ' ' | tr ''\'t'[C '' '[C
+q 21 3  ausd
+b 12  asb  cnuc
+x 3 sad          dac
+p 2 bla             agni
+y 0  kira     tis
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cat check | tr -s ' ' | tr '\t' ' ' [K| cut -d '' '[C -f 2
+21
+12
+3
+2
+0
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cat check | tr -s ' ' | tr '\t' ' '| cut -d ' ' -f 2 | sort -n
+0
+2
+3
+12
+21
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cat check | tr -s ' ' | tr '\t' ' '| cut -d ' ' -f 2 | sort -n | tr -d ''\'n'[C
+0231221]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$clear
+[H[2J]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$exit
+exit
+
+Script done on Sunday 30 August 2015 10:24:48 AM IST
+Script started on Sunday 30 August 2015 10:25:31 AM IST
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cat check
+q         21  3		ausd
+b    12		asb		cnuc
+x	3	sad										dac
+p 2    bla													agni
+y 0		kira					tis
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cat check | tr -s []']']']'] '''][C[C\']t'][C[C
+q 21 3	ausd
+b 12	asb	cnuc
+x	3	sad	dac
+p 2 bla	agni
+y 0	kira	tis
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cat check | tr -s [' ''\t'] | tr '\t' '' '[C
+q 21 3 ausd
+b 12 asb cnuc
+x 3 sad dac
+p 2 bla agni
+y 0 kira tis
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cat check | tr -s [' ''\t'] | tr '\t' ' ' | cut -d '' '[C -f 4
+ausd
+cnuc
+dac
+agni
+tis
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cat check | tr -s [' ''\t'] | tr '\t' ' ' | cut -d ' ' -f 4 | cut -c 2
+u
+n
+a
+g
+i
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cat check | tr -s [' ''\t'] | tr '\t' ' ' | cut -d ' ' -f 4 | cut -c 2 | tr \n''\n'[C[C[C '' '[C
+u n a g i ]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$clear
+[H[2J]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$less echo.txt
+[?1049h[?1h=ECHO(1)                                                         User Commands                                                         ECHO(1)
+
+
+
+NAME
+       echo - display a line of text
+
+SYNOPSIS
+       echo [SHORT-OPTION]... [STRING]...
+       echo LONG-OPTION
+
+DESCRIPTION
+       Echo the STRING(s) to standard output.
+
+       -n     do not output the trailing newline
+
+       -e     enable interpretation of backslash escapes
+
+       -E     disable interpretation of backslash escapes (default)
+
+       --help display this help and exit
+
+       --version
+              output version information and exit
+
+       If -e is in effect, the following sequences are recognized:
+
+       \\     backslash
+
+       \a     alert (BEL)
+
+       \b     backspace
+
+       \c     produce no further output
+
+       \e     escape
+
+       \f     form feed
+
+       \n     new line
+[7mecho.txt[27m[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K       \r     carriage return
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K       \t     horizontal tab
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K       \v     vertical tab
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K       \0NNN  byte with octal value NNN (1 to 3 digits)
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K       \xHH   byte with hexadecimal value HH (1 to 2 digits)
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K       NOTE:  your shell may have its own version of echo, which usually supersedes the version described here.  Please refer to your shell's
+:[K[K [KESCESC[KOO[KBB[K       documentation for details about the options it supports.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[KAUTHOR
+:[K[K [KESCESC[KOO[KBB[K       Written by Brian Fox and Chet Ramey.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[KREPORTING BUGS
+:[K[K [KESCESC[KOO[KBB[K       Report echo bugs to bug-coreutils@gnu.org
+:[K[K [KESCESC[KOO[KBB[K       GNU coreutils home page: <http://www.gnu.org/software/coreutils/>
+:[K[K [KESCESC[KOO[KBB[K       General help using GNU software: <http://www.gnu.org/gethelp/>
+:[K[K [KESCESC[KOO[KBB[K       Report echo translation bugs to <http://translationproject.org/team/>
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[KCOPYRIGHT
+:[K[K [KESCESC[KOO[KBB[K       Copyright © 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+:[K[K [KESCESC[KOO[KAA[K[HM
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM              output version information and exit
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM       --version
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM       --help display this help and exit
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM       -E     disable interpretation of backslash escapes (default)
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM       -e     enable interpretation of backslash escapes
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM       -n     do not output the trailing newline
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM       Echo the STRING(s) to standard output.
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMDESCRIPTION
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM       echo LONG-OPTION
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM       echo [SHORT-OPTION]... [STRING]...
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMSYNOPSIS
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM       echo - display a line of text
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMNAME
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMECHO(1)                                                         User Commands                                                         ECHO(1)
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K       \r     carriage return
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K       \t     horizontal tab
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K       \v     vertical tab
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K       \0NNN  byte with octal value NNN (1 to 3 digits)
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K       \xHH   byte with hexadecimal value HH (1 to 2 digits)
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K       NOTE:  your shell may have its own version of echo, which usually supersedes the version described here.  Please refer to your shell's
+:[K[K [KESCESC[KOO[KBB[K       documentation for details about the options it supports.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[KAUTHOR
+:[K[K [KESCESC[KOO[KBB[K       Written by Brian Fox and Chet Ramey.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[KREPORTING BUGS
+:[K[K [KESCESC[KOO[KBB[K       Report echo bugs to bug-coreutils@gnu.org
+:[K[K [KESCESC[KOO[KBB[K       GNU coreutils home page: <http://www.gnu.org/software/coreutils/>
+:[K[K [KESCESC[KOO[KBB[K       General help using GNU software: <http://www.gnu.org/gethelp/>
+:[K[K [KESCESC[KOO[KBB[K       Report echo translation bugs to <http://translationproject.org/team/>
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[KCOPYRIGHT
+:[K[K [KESCESC[KOO[KBB[K       Copyright © 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+:[K[K [KESCESC[KOO[KBB[K       This is free software: you are free to change and redistribute it.  There is NO WARRANTY, to the extent permitted by law.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[KSEE ALSO
+:[K[K [KESCESC[KOO[KBB[K       The full documentation for echo is maintained as a Texinfo manual.  If the info and echo programs are properly installed at your site,
+:[K[K [KESCESC[KOO[KBB[K       the command
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K              info coreutils 'echo invocation'
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K       should give you access to the complete manual.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[KGNU coreutils 8.21                                               January 2015                                                         ECHO(1)
+[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[HM       \f     form feed
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM       \e     escape
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM       \c     produce no further output
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM       \b     backspace
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM       \a     alert (BEL)
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM       \\     backslash
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM       If -e is in effect, the following sequences are recognized:
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM              output version information and exit
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM       --version
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM       --help display this help and exit
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM       -E     disable interpretation of backslash escapes (default)
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HM       -e     enable interpretation of backslash escapes
+[41;1H[K:[K[K[?1l>[?1049l]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$man cp
+[?1049h[?1h=CP(1)                                                           User Commands                                                           CP(1)[m
+[m
+[1mNAME[0m[m
+       cp - copy files and directories[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mcp[0m [[4mOPTION[24m]... [[4m-T[24m] [4mSOURCE[24m [4mDEST[24m[m
+       [1mcp[0m [[4mOPTION[24m]... [4mSOURCE[24m... [4mDIRECTORY[24m[m
+       [1mcp[0m [[4mOPTION[24m]... [4m-t[24m [4mDIRECTORY[24m [4mSOURCE[24m...[m
+[m
+[1mDESCRIPTION[0m[m
+       Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.[m
+[m
+       Mandatory arguments to long options are mandatory for short options too.[m
+[m
+       [1m-a[0m, [1m--archive[0m[m
+              same as [1m-dR[0m [1m--preserve[0m=[4mall[24m[m
+[m
+       [1m--attributes-only[0m[m
+              don't copy the file data, just the attributes[m
+[m
+       [1m--backup[0m[=[4mCONTROL[24m][m
+              make a backup of each existing destination file[m
+[m
+       [1m-b[0m     like [1m--backup[0m but does not accept an argument[m
+[m
+       [1m--copy-contents[0m[m
+              copy contents of special files when recursive[m
+[m
+       [1m-d[0m     same as [1m--no-dereference[0m [1m--preserve[0m=[4mlinks[24m[m
+[m
+       [1m-f[0m, [1m--force[0m[m
+              if  an  existing  destination file cannot be opened, remove it and try again (this option is ignored when the [1m-n[0m option is also[m
+              used)[m
+[m
+       [1m-i[0m, [1m--interactive[0m[m
+              prompt before overwrite (overrides a previous [1m-n[0m option)[m
+[m
+       [1m-H[0m     follow command-line symbolic links in SOURCE[m
+[m
+[7m Manual page cp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-l[0m, [1m--link[0m[m
+[7m Manual page cp(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              hard link files instead of copying[m
+[7m Manual page cp(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cp(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-L[0m, [1m--dereference[0m[m
+[7m Manual page cp(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              always follow symbolic links in SOURCE[m
+[7m Manual page cp(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cp(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-n[0m, [1m--no-clobber[0m[m
+[7m Manual page cp(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              do not overwrite an existing file (overrides a previous [1m-i[0m option)[m
+[7m Manual page cp(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cp(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-P[0m, [1m--no-dereference[0m[m
+[7m Manual page cp(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              never follow symbolic links in SOURCE[m
+[7m Manual page cp(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cp(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-p[0m     same as [1m--preserve[0m=[4mmode[24m,ownership,timestamps[m
+[7m Manual page cp(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cp(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--preserve[0m[=[4mATTR_LIST[24m][m
+[7m Manual page cp(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              preserve the specified attributes (default: mode,ownership,timestamps), if  possible  additional  attributes:  context,  links,[m
+[7m Manual page cp(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              xattr, all[m
+[7m Manual page cp(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cp(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--no-preserve[0m=[4mATTR_LIST[24m[m
+[7m Manual page cp(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              don't preserve the specified attributes[m
+[7m Manual page cp(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cp(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--parents[0m[m
+[7m Manual page cp(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              use full source file name under DIRECTORY[m
+[7m Manual page cp(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cp(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-R[0m, [1m-r[0m, [1m--recursive[0m[m
+[7m Manual page cp(1) line 28 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cp -n /[K[K[K[K[K[K[Kls
+201505581_1.txt  201505581_Assgn1.script  check  [0m[01;34m$DIR[0m  echo.txt  [01;34mfolder[0m  legendary  list_item  temp.txt~
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$mkdir dir1
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$mkdir dir1[K2
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cd dir1
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/dir1SCE:$touch file{}1},}2},}3}[C
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/dir1SCE:$ls
+file1  file2  file3
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/dir1SCE:$cat > file1
+Hello
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/dir1SCE:$cat > file1[K2
+Hi
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/dir1SCE:$cat > file2[K3
+Are to  you there ?
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/dir1SCE:$cd ..
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cd dir2
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/dir2SCE:$tocu [Kh file{}1},}2}[C
+No command 'tocuh' found, did you mean:
+ Command 'touch' from package 'coreutils' (main)
+tocuh: command not found
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/dir2SCE:$tocuh file{1,2}[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd dir2
+bash: cd: dir2: No such file or directory
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/dir2SCE:$ls
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/dir2SCE:$cd [K[K[Kpwd
+/home/utsav/Documents/SCEAssignments/Assignment1/dir2
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/dir2SCE:$pwd[1Plscd dir2[C[C[C[C[Ctocuh file{1,2}[C[1P file{1,2}[1P file{1,2}[C[C[C[C[C[C[C[C[1P file{1,2}[C[C[C[C[C[C[Cc file{1,2}[C[C[C[C[C[C[C[Ch file{1,2}[1P file{1,2}[C[C[C[C[C[C[C[C[1P file{1,2}[C[C[C[C[C[C[Cu file{1,2}[C[C[C[C[C[C[C[Cc file{1,2}h file{1,2}
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/dir2SCE:$cd ..
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$pwd
+/home/utsav/Documents/SCEAssignments/Assignment1
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cp -m[Kn ./dir1/* dir2.dir2/dir2
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$l[Kcd dir2
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/dir2SCE:$ls
+file1  file2  file3
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/dir2SCE:$cat file1
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/dir2SCE:$cat file1[K3
+Are you there ?
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/dir2SCE:$clear
+[H[2J]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/dir2SCE:$clearat file31[C[C[C[C[Cls[Kcd dir2p -n ./dir1/* ./dir2[C[C[C[C[Cpwd[Kcd ..touch file{1,2}[C[C[C[C[Cpwd[K[1Plscd dir2[C[C[C[C[Ctocuh file{1,2}[C[C[C[C[C[8Pcd dir2[2P..[K[K[K[K[Kexit
+exit
+
+Script done on Sunday 30 August 2015 10:30:58 AM IST
+Script started on Sunday 30 August 2015 10:31:01 AM IST
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cat list_item 
+apple
+banana
+cherry
+kiwi
+mango
+papaya
+pear
+watermelon
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cat list_item [C[1P[1P[1P[1@s[1@o[1@r[1@t
+apple
+banana
+cherry
+kiwi
+mango
+papaya
+pear
+watermelon
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$sort list_item > list_item 
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cat list_item 
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$[K]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cat list_item [C[C[C[C[C[13@sort list_item >[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1@ [1@-[1@o[1@ 
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$sort list_item -o list_item [C[C[C[C[C[14Pcat[C[C[C[C[C[C[C[C[C[C[C
+apple
+banana
+cherry
+kiwi
+mango
+papaya
+pear
+watermelon
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$clear
+[H[2J]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$clearat list_item [C[C[C[C[C[Clear[K[K[K[K[K[Kexit
+exit
+
+Script done on Sunday 30 August 2015 10:32:56 AM IST
+Script started on Sunday 30 August 2015 10:33:29 AM IST
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$exitclearat list_item [K[K[K[K[K[K[K[K[K[K[K[K[K[Kcdc[K folf[Kder
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/folderSCE:$cat *
+Hi
+how are you
+Hello
+Hi
+cat: a: Is a directory
+cat: b: Is a directory
+how are you
+Hello
+cat: z: Is a directory
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/folderSCE:$cat * | sort
+cat: a: Is a directory
+cat: b: Is a directory
+cat: z: Is a directory
+Hello
+Hello
+Hi
+Hi
+how are you
+how are you
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/folderSCE:$ls
+12.txt  1.txt  71  [0m[01;34ma[0m  [01;34mb[0m  c.txt  hello.txt  [01;34mz[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/folderSCE:$rm 12.txt
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/folderSCE:$ls
+1.txt  71  [0m[01;34ma[0m  [01;34mb[0m  c.txt  hello.txt  [01;34mz[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/folderSCE:$rm hello.txt 
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/folderSCE:$ls
+1.txt  71  [0m[01;34ma[0m  [01;34mb[0m  c.txt  [01;34mz[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/folderSCE:$clear
+[H[2J]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/folderSCE:$clear[3Plsrm hello.txt [C[C[C[C[Cls[Krm 12.txt[C[C[C[C[Cls[Kcat * | sort
+cat: a: Is a directory
+cat: b: Is a directory
+cat: z: Is a directory
+Hi
+how are you
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/folderSCE:$cat * | sort[C[C[C[C[C[C[7Plear[3Plsrm hello.txt [C[C[C[C[Cls[K
+1.txt  71  [0m[01;34ma[0m  [01;34mb[0m  c.txt  hello.txt  [01;34mz[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/folderSCE:$lscat * | sort
+cat: a: Is a directory
+cat: b: Is a directory
+cat: z: Is a directory
+Hello
+Hi
+how are you
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/folderSCE:$cat * | sort[K[K[K[K[K[K[4Plscat * | sort >> 12.txt >>2>>[C[C[K&1
+cat: a: Is a directory
+cat: b: Is a directory
+cat: z: Is a directory
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/folderSCE:$cat 12.txt 
+Hello
+Hi
+how are you
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/folderSCE:$cat 12.txt * | sort >> 12.txt 2>&1[K[K[K>> 12.txt
+cat: a: Is a directory
+cat: b: Is a directory
+cat: z: Is a directory
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/folderSCE:$cat 12.txt 
+Hello
+Hi
+how are you
+Hello
+Hello
+Hi
+Hi
+how are you
+how are you
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/folderSCE:$rm 12.txt
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/folderSCE:$clear
+[H[2J]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/folderSCE:$ls
+1.txt  71  [0m[01;34ma[0m  [01;34mb[0m  c.txt  hello.txt  [01;34mz[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/folderSCE:$lsclearrm 12.txt[C[C[C[C[Ccat 12.txt * | sort >> 12.txt 2>> 12.txt
+cat: a: Is a directory
+cat: b: Is a directory
+cat: z: Is a directory
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/folderSCE:$cat * | sort >> 12.txt 2>> 12.txt[C[C[C[C[Cls[Kclearrm 12.txt
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/folderSCE:$rm 12.txt[C[C[C[C[C[24@cat * | sort >> 12.txt 2>>[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcat * | sort >> 12.txt 2>> 12.txt[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@*[C[C[1@>[1@>[1@ 
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/folderSCE:$cat 12.txt
+Hi
+cat: a: Is a directory
+cat: b: Is a directory
+how are you
+Hello
+cat: z: Is a directory
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/folderSCE:$sudo find /hime[K[K[Kome/am[K[Kutsav -type f -user utsav -mtime 5
+[sudo] password for utsav: 
+/home/utsav/Documents/SCEAssignments/Assignment1/folder/c.txt
+/home/utsav/Documents/SCEAssignments/Assignment1/folder/1.txt
+/home/utsav/Documents/SCEAssignments/Assignment1/folder/hello.txt
+/home/utsav/Documents/APSAssignments/Assign1.pdf
+/home/utsav/Documents/SCE Resources/Assignment_1/folder/c.txt
+/home/utsav/Documents/SCE Resources/Assignment_1/folder/1.txt
+/home/utsav/Documents/SCE Resources/Assignment_1/folder/hello.txt
+/home/utsav/Documents/SCE Resources/Assignment_1/Assignment_1.pdf
+/home/utsav/Documents/OS Assignments/Lab1/a.out
+/home/utsav/Documents/Scan.zip
+/home/utsav/.local/share/Twittertwittercom/cookies.sqlite
+/home/utsav/.local/share/Twittertwittercom/Cache2/3fb7d1eca1ddd171_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/2835c975898ccbb1_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/c55757477a125590_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/3a2da28d4a5d93b6_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/15005edd0a2d4023_1
+/home/utsav/.local/share/Twittertwittercom/Cache2/5d990e3fff5c9a16_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/21b073a86adc6e16_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/013663b19f60a731_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/717cc65fdd1e0c29_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/a1ddce4075c85033_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/eb0aaa27d7707ad0_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/dc8a2126713bf24a_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/04d55e980738d5dc_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/15005edd0a2d4023_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/f8ca3dead3c3ab9a_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/d462888b736c8c22_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/c06bfc33531a9137_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/959f7c20c81be51f_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/8d1d00ff08e9434d_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/63c61e2e1bae451b_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/096d8d1241f01287_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/95f30cd12d27ec23_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/66a276ca88ac41f8_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/8bda956a10bcd936_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/be19174df0cc0cc4_1
+/home/utsav/.local/share/Twittertwittercom/Cache2/b6414625cdb89e19_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/03edbea8f6f8d855_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/179765abd041f34c_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/a96617a325c4ae4d_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/ec5244c294ef136b_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/e184bd215480cd6f_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/8c505aa8edfb5a06_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/90b7024743569011_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/2ab928111d858394_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/b65de003eb038fc8_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/2b10c31bdb124900_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/c3666e302fcfbc2f_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/348a4323bc07c644_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/9925f597641c633c_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/e6fe5cd20ed3b775_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/251abc9c7324bf3c_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/4e0ec342ca01abee_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/75ab09d7d5d131d3_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/4595a974dad5aac2_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/ca3fd945742153fe_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/b96c011bf95fd66f_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/33733f299220c2b9_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/029a5b528935b028_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/d59b0c25671bcc5c_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/349c1d2c2945f650_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/9e9267928b8321a8_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/57a5fb7391bfb933_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/89eea55c25d121ee_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/3d43bf8724979e6f_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/d6467ea0a02fdcd1_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/2940195bd9870d6e_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/dbf1c40e391cfa4e_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/64f3edeae6694f0b_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/69e151f6298d2913_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/56fa00e26c16c4b7_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/0ad54c8670050c09_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/4adbbaff4f17ad81_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/3f413588ebd08aa5_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/3231ed9801fe004a_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/5f9b6e4cbdced240_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/78f2502624dc83e9_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/3b1df32eb8626bee_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/2201ab3d2b863125_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/41bc58bdb42e78ea_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/06952df6bafa79bc_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/bd7f477513816136_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/7934b28d390994da_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/0ea8a54e8dcc92ec_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/f6f63e86d26d07d3_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/e48d258918de6b2e_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/a7af5881c26231c3_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/7793cbd649be0953_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/3b0ae3c660b01afc_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/b5bccf9ecf04bf95_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/af3a04f9167c1173_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/34e97cfc7385906e_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/0dfd866239a6a845_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/index-dir/the-real-index
+/home/utsav/.local/share/Twittertwittercom/Cache2/6df799c99e0698da_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/7caf417b05fa2c37_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/9e9267928b8321a8_1
+/home/utsav/.local/share/Twittertwittercom/Cache2/bf07b191ad0af789_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/942757b280b8fd62_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/970287d25cf5ff53_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/5421d867acf7bb8f_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/be6c66217c021259_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/0f3ed5099b7558ad_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/625b8b7f30b64d24_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/625b8b7f30b64d24_1
+/home/utsav/.local/share/Twittertwittercom/Cache2/a60f667ac6f4dce4_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/6f8c92c35bc30bbb_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/892f07607e1c3b78_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/b43aaf23ae5df54f_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/3d828cd90b451118_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/be19174df0cc0cc4_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/97e2f4b2d9e2061b_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/1a2e0bf2902b284a_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/c42cbcaa7b9060ab_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/496410c1f3ba3461_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/ee39b1961b8dc547_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/e15cfab5fc6d23b5_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/51b91b62e318c525_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/4090f098cc91ff36_0
+/home/utsav/.local/share/Twittertwittercom/Cache2/2f7658047011aeff_0
+/home/utsav/.local/share/Twittertwittercom/QuotaManager-journal
+/home/utsav/.local/share/Twittertwittercom/IndexedDB/https_twitter.com_0.indexeddb.leveldb/000003.log
+/home/utsav/.local/share/Twittertwittercom/IndexedDB/https_twitter.com_0.indexeddb.leveldb/LOG
+/home/utsav/.local/share/Twittertwittercom/QuotaManager
+/home/utsav/.local/share/Twittertwittercom/TransportSecurity
+/home/utsav/.local/share/Twittertwittercom/cookies.sqlite-journal
+/home/utsav/.local/share/Twittertwittercom/Local Storage/https_twitter.com_0.localstorage
+/home/utsav/.local/share/Twittertwittercom/Local Storage/https_twitter.com_0.localstorage-journal
+/home/utsav/.cache/thumbnails/large/84c68914b76345e3eda66b4358c741b4.png
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/folderSCE:$sudo find /home/utsav -type f -user utsav -mtime 5[C[C[C[C[C[Kclear
+[H[2J]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/folderSCE:$exit
+exit
+
+Script done on Sunday 30 August 2015 10:39:40 AM IST
+Script started on Sunday 30 August 2015 10:39:41 AM IST
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$exitclear[1Pexitclear
+[H[2J]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$clear[K[K[K[K[Kseq 12[K 20
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$seq 1 20 > count.txt
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$seq 1 20 > count.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ktail -n+3 count.txt 
+seq: invalid floating point argument: tail
+Try 'seq --help' for more information.
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$seq tail -n+3 count.txt [1P[1P[1P[1P
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$clear
+[H[2J]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$l[Kexit
+exit
+
+Script done on Sunday 30 August 2015 10:40:56 AM IST
+Script started on Sunday 30 August 2015 10:40:58 AM IST
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$mv count.txt number.txt
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$ls
+201505581_1.txt  201505581_Assgn1.script  check  [0m[01;34m$DIR[0m  [01;34mdir1[0m  [01;34mdir2[0m  echo.txt  [01;34mfolder[0m  legendary  list_item  number.txt  temp.txt~
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cat Q16.txt
+cat: Q16.txt: No such file or directory
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cat Q16.txt>Q16.txt Q16.txt
+K111@REENDEE12CVOOP684US983	GAPMKT	11­-B#POLFSHHMOKGI
+^B48MOOGPOOKCE  
+d ]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cat > Q16.txt[1P Q16.txt[1PQ16.txt
+K111@REENDEE12CVOOP684US983	GAPMKT	11­-B#POLFSHHMOKGI
+B48MOOGPOOKCE
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cat Q16.txt | tr -s []A]-]Z]0]-]9]']'] '][C[C
+K1@RENDE12CVOP684US983	GAPMKT	1­-B#POLFSHMOKGI
+B48MOGPOKCE
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cat Q16.txt | tr -s [A-Z0-9' '] \[K| tr -d []0]-]9]#]F]G]@#FG][C[C[CJ]K]M]P]Q]W]X]Y][C
+RENDECVOUS	AT	­-BOLSHOI
+BOOCE
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cat Q16.txt | tr -s [A-Z0-9' '] | tr -d [0-9@#FGJKMPQWXY]\]-]
+RENDECVOUS	AT	­-BOLSHOI
+BOOCE
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cat Q16.txt | tr -s [A-Z0-9' '] | tr -d [0-9@#FGJKMPQWXY\-][1P][1P][C''-'[C
+RENDECVOUS	AT	­BOLSHOI
+BOOCE
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cat Q16.txt | tr -s [A-Z0-9' '] | tr -d [0-9@#FGJKMPQWXY]'-' | tr ''D[KC'C'[1P'[C ''Z'[C
+RENDEZVOUS	AT	­BOLSHOI
+BOOZE
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cat Q16.txt | tr -s [A-Z0-9' '] | tr -d [0-9@#FGJKMPQWXY]'-' | tr 'C' 'Z' | tr ''\'t'[C '' '[C
+RENDEZVOUS AT ­BOLSHOI
+BOOZE
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cat Q16.txt | tr -s [A-Z0-9' '] | tr -d [0-9@#FGJKMPQWXY]'-' | tr 'C' 'Z' | tr '\t' ' ' | tr ][K][K''\'n'[C ][K'' '[C
+RENDEZVOUS AT ­BOLSHOI BOOZE ]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cat Q16.txt | tr -s [A-Z0-9' '] | tr -d [0-9@#FGJKMPQWXY]'-' | tr 'C' 'Z' | tr '\t' ' ' | tr '\n' ' ' > ''[K[K.meeting point
+tr: extra operand ‘point’
+Try 'tr --help' for more information.
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cat Q16.txt | tr -s [A-Z0-9' '] | tr -d [0-9@#FGJKMPQWXY]'-' | tr 'C' 'Z' | tr '\t' ' ' | tr '\n' ' ' > .meeting point[1@'[C[C[C[C[C[C[C[C[C[C[C[C[C[C'
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$clear
+[H[2J]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$ls
+201505581_1.txt  201505581_Assgn1.script  check  [0m[01;34m$DIR[0m  [01;34mdir1[0m  [01;34mdir2[0m  echo.txt  [01;34mfolder[0m  legendary  list_item  number.txt  Q16.txt  temp.txt~
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$ls -al
+total 136
+drwxrwxr-x  6 utsav  utsav      4096 Aug 30 10:41 [0m[01;34m.[0m
+drwxrwxr-x 11 utsav  utsav      4096 Aug 27 23:13 [01;34m..[0m
+-rw-rw-r--  1 utsav  utsav      2579 Aug 30 10:45 201505581_1.txt
+-rw-rw-r--  1 utsav  utsav     75155 Aug 30 10:40 201505581_Assgn1.script
+-rw-rw-r--  1 utsav  utsav       108 Aug 24 05:36 check
+drwxrwxr-x  2 utsav  utsav      4096 Aug 30 10:21 [01;34m$DIR[0m
+drwxrwxr-x  2 utsav  utsav      4096 Aug 30 10:28 [01;34mdir1[0m
+drwxrwxr-x  2 utsav  utsav      4096 Aug 30 10:30 [01;34mdir2[0m
+-rw-rw-r--  1 utsav  utsav      2313 Aug 30 10:14 echo.txt
+drwxrwxr-x  5 utsav  utsav      4096 Aug 30 10:37 [01;34mfolder[0m
+-rw-rw-r--  1 barney WaitForIt     0 Aug 30 10:08 legendary
+-rw-rw-r--  1 utsav  utsav        54 Aug 30 10:32 list_item
+-rw-rw-r--  1 utsav  utsav         0 Aug 30 10:45 .meeting
+-rw-rw-r--  1 utsav  utsav        30 Aug 30 10:45 .meeting point
+-rw-rw-r--  1 utsav  utsav        51 Aug 30 10:40 number.txt
+-rw-rw-r--  1 utsav  utsav        69 Aug 30 10:42 Q16.txt
+-rw-rw-r--  1 utsav  utsav        69 Aug 28 04:48 temp.txt~
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$ls -al[K[K[K[K[K[Kem .meeting
+em: command not found
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$em .meeting[C[1P[1@r
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$ls
+201505581_1.txt  201505581_Assgn1.script  check  [0m[01;34m$DIR[0m  [01;34mdir1[0m  [01;34mdir2[0m  echo.txt  [01;34mfolder[0m  legendary  list_item  number.txt  Q16.txt  temp.txt~
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$ls -la[K[Kal
+total 140
+drwxrwxr-x  6 utsav  utsav      4096 Aug 30 10:45 [0m[01;34m.[0m
+drwxrwxr-x 11 utsav  utsav      4096 Aug 27 23:13 [01;34m..[0m
+-rw-rw-r--  1 utsav  utsav      2579 Aug 30 10:45 201505581_1.txt
+-rw-rw-r--  1 utsav  utsav     79251 Aug 30 10:45 201505581_Assgn1.script
+-rw-rw-r--  1 utsav  utsav       108 Aug 24 05:36 check
+drwxrwxr-x  2 utsav  utsav      4096 Aug 30 10:21 [01;34m$DIR[0m
+drwxrwxr-x  2 utsav  utsav      4096 Aug 30 10:28 [01;34mdir1[0m
+drwxrwxr-x  2 utsav  utsav      4096 Aug 30 10:30 [01;34mdir2[0m
+-rw-rw-r--  1 utsav  utsav      2313 Aug 30 10:14 echo.txt
+drwxrwxr-x  5 utsav  utsav      4096 Aug 30 10:37 [01;34mfolder[0m
+-rw-rw-r--  1 barney WaitForIt     0 Aug 30 10:08 legendary
+-rw-rw-r--  1 utsav  utsav        54 Aug 30 10:32 list_item
+-rw-rw-r--  1 utsav  utsav        30 Aug 30 10:45 .meeting point
+-rw-rw-r--  1 utsav  utsav        51 Aug 30 10:40 number.txt
+-rw-rw-r--  1 utsav  utsav        69 Aug 30 10:42 Q16.txt
+-rw-rw-r--  1 utsav  utsav        69 Aug 28 04:48 temp.txt~
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$clear
+[H[2J]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$exit
+exit
+
+Script done on Sunday 30 August 2015 10:46:18 AM IST
+Script started on Sunday 30 August 2015 10:54:40 AM IST
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$exitclearp -T 1.txt 1a.txt 1b.txt[C[C[C[C[C[C[C[C[C-backup -suffix=a a 1.txt .[7PS[C[C[C[C[C[C[C[C[C[C[K[C[C[C[C[Cman cp[Kcp -b 1.txt .[C[C[C[C[C[7Pman cpcp -b 1.txt[Kman cpcp -T 1.txt 1a.txt 1b.txt[C[C[C[C[Cman cp[Kcp 1.txt 1a.txt 1b.txt[C[C[C[C[Cls[Kcp 1.txt {1a.txt,1b.txt}[4P,1b}.txt[C[C[C[C[C[9Ptouch 1.txt[C[C[C[C[C[6Pclearat Q18.txt | cut -d ' ' -f 3 | sort | uniq -c[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[C[C[C[C[Cls[Kgedit Q18.txt[C[C[C[C[Cscript -a 201505581_Assgn1.script[C[C[C[C[C[20Pgedit Q18.txt
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$gedit Q18.txt[C[C[C[C[Cexit[Kclearp -T 1.txt 1a.txt 1b.txt[C[C[C[C[C[C[C[C[C-backup -suffix=a a 1.txt .[7PS[C[C[C[C[C[C[C[C[C[C[K[C[C[C[C[Cman cp[Kcp -b 1.txt .[C[C[C[C[C[7Pman cpcp -b 1.txt[Kman cpcp -T 1.txt 1a.txt 1b.txt[C[C[C[C[Cman cp[Kcp 1.txt 1a.txt 1b.txt[C[C[C[C[Cls[Kcp 1.txt {1a.txt,1b.txt}[4P,1b}.txt[C[C[C[C[C[9Ptouch 1.txt[C[C[C[C[C[6Pclearat Q18.txt | cut -d ' ' -f 3 | sort | uniq -c[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[C[C[C[C[Cls[Kgedit Q18.txt[C[C[C[C[Cls[Kcat Q18.txt | cut -d ' ' -f 3 | sort | uniq -c
+      2 blackwidow
+      4 captain
+      3 hulk
+      4 ironman
+      3 thor
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cat Q18.txt | cut -d ' ' -f 3 | sort | uniq -c[C[C[C[C[Cgedit Q18.txt[K[C[C[C[C[Cexit[Kclearp -T 1.txt 1a.txt 1b.txt[C[C[C[C[C[C[C[C[C-backup -suffix=a a 1.txt .[7PS[C[C[C[C[C[C[C[C[C[C[K[C[C[C[C[Cman cp[Kcp -b 1.txt .[C[C[C[C[C[7Pman cpcp -b 1.txt[Kman cpcp -T 1.txt 1a.txt 1b.txt[C[C[C[C[Cman cp[Kcp -T 1.txt 1a.txt 1b.txt
+cp: extra operand ‘1b.txt’
+Try 'cp --help' for more information.
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cp -T 1.txt 1a.txt 1b.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+exit
+
+Script done on Sunday 30 August 2015 10:55:30 AM IST
+Script started on Sunday 30 August 2015 10:55:32 AM IST
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$mkdir -p Sarabhai/Rosesh
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$ls
+1.txt            201505581_Assgn1.script  [0m[01;34m$DIR[0m  [01;34mdir2[0m      [01;34mfolder[0m     list_item   Q16.txt  Q18.txt~  temp.txt~
+201505581_1.txt  check                    [01;34mdir1[0m  echo.txt  legendary  number.txt  Q18.txt  [01;34mSarabhai[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$touch ./Sarabhai/Fridge.txt
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$sudo addgroup rosesh
+[sudo] password for utsav: 
+Adding group `rosesh' (GID 1005) ...
+Done.
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$sudo adduser maya
+Adding user `maya' ...
+Adding new group `maya' (1006) ...
+Adding new user `maya' (1003) with group `maya' ...
+The home directory `/home/maya' already exists.  Not copying from `/etc/skel'.
+adduser: Warning: The home directory `/home/maya' does not belong to the user you are currently creating.
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+Changing the user information for maya
+Enter the new value, or press ENTER for the default
+	Full Name []: 
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] 
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$sudo passwd maya
+Enter new UNIX password: 
+Retype new UNIX password: 
+Sorry, passwords do not match
+passwd: Authentication token manipulation error
+passwd: password unchanged
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$sudo passwd maya
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$clear
+[H[2J]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$sudo usermode [K[K -a -G rosesh maya
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$sudo adduser indra
+Adding user `indra' ...
+Adding new group `indra' (1007) ...
+Adding new user `indra' (1004) with group `indra' ...
+Creating home directory `/home/indra' ...
+Copying files from `/etc/skel' ...
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+Changing the user information for indra
+Enter the new value, or press ENTER for the default
+	Full Name []: 
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+
+
+Is the information correct? [Y/n] ]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$sudo passws [K[Kd indra
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$echo ""r"i"n"g"a" "r"i"n"g"a" "r"o"s"e"s"[C > ./Sarabhai/Rosesh/poem.txt
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$echo "ringa ringa roses" > ./Sarabhai/Rosesh/poem.txt[1P ./Sarabhai/Rosesh/poem.txt[1P./Sarabhai/Rosesh/poem.txt[1P ./Sarabhai/Rosesh/poem.txt[1P ./Sarabhai/Rosesh/poem.txt[1P ./Sarabhai/Rosesh/poem.txt[1P ./Sarabhai/Rosesh/poem.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P ./Sarabhai/Rosesh/poem.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P ./Sarabhai/Rosesh/poem.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P./Sarabhai/Rosesh/poem.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P ./Sarabhai/Rosesh/poem.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P ./Sarabhai/Rosesh/poem.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P ./Sarabhai/Rosesh/poem.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P ./Sarabhai/Rosesh/poem.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P ./Sarabhai/Rosesh/poem.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P./Sarabhai/Rosesh/poem.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P ./Sarabhai/Rosesh/poem.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P ./Sarabhai/Rosesh/poem.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P ./Sarabhai/Rosesh/poem.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[1P ./Sarabhai/Rosesh/poem.txt[C[C[C[C[C[C[C[C[C[C[C[C[1P ./Sarabhai/Rosesh/poem.txt[C[C[C[C[C[C[C[C[C[C[C[1P ./Sarabhai/Rosesh/poem.txt[C[C[C[C[C[C[C[C[C[C[1P./Sarabhai/Rosesh/poem.txt[C[C[C[C[C[C[C[C[C[1P ./Sarabhai/Rosesh/poem.txt[C[C[C[C[C[C[C[C[1P ./Sarabhai/Rosesh/poem.txt[C[C[C[C[C[C[C[1P ./Sarabhai/Rosesh/poem.txt[C[C[C[C[C[C[1P ./Sarabhai/Rosesh/poem.txt[C[C[C[C[Cc ./Sarabhai/Rosesh/poem.txt[C[C[C[C[C[Ca ./Sarabhai/Rosesh/poem.txt[C[C[C[C[C[C[Ct ./Sarabhai/Rosesh/poem.txt[C[C[C[C[C[C[C[C
+ringa ringa roses
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$chmod 700 ./Sarabhai/Rosesh/poem.txt 
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$clear
+[H[2J]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$echo ""t"w"i"n"k"l"e" "t"w"i"n"k"l"e" "l"i"t"t"l"e" "s"t"a"r"[C > ./Sarabhai/Rosesh/poem.txt
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$echo "twinkle twinkle little star" > ./Sarabhai/Rosesh/poem.txt[Cw.txt[1P.txt2.txt[C[C[C[C
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$echo "twinkle twinkle little star" > ./Sarabhai/Rosesh/poem2.txt[1P.txt3.txt[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@b[1@a[1@a[1@ [1@b[1@a[1@a[1@ [1@b[1@l[1@a[1@c[1@k[1@ [1@s[1@h[1@e[1@e[1@p[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$chmod 740 poem.txt [C[C[C[C[Cecho "baa baa black sheep" > ./Sarabhai/Rosesh/poem3.txt[C[C[C[C[C[37Pchmod 740 poem.txt [1P [1P [1P [1P [1P [1P [1P [1P [K[1P [1P [1P [K[1P [1P [1P [1P [1P c d [C [K[1P [1P p w d 
+/home/utsav/Documents/SCEAssignments/Assignment1
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cd Sarabhai/
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$ls
+Fridge.txt  [0m[01;34mRosesh[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$cd Rosesh/
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/RoseshSCE:$ls
+poem2.txt  poem3.txt  [0m[01;32mpoem.txt[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/RoseshSCE:$chmod 740 poem2.xt [K[K[Ktxt poem3.txt 
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/RoseshSCE:$umask
+0002
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/RoseshSCE:$umask 0022
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/RoseshSCE:$umask
+0022
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/RoseshSCE:$toc[Kuch file1
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/RoseshSCE:$ls -l
+total 12
+-rw-r--r-- 1 utsav utsav  0 Aug 30 11:05 file1
+-rwxr----- 1 utsav utsav 28 Aug 30 11:01 [0m[01;32mpoem2.txt[0m
+-rwxr----- 1 utsav utsav 20 Aug 30 11:02 [01;32mpoem3.txt[0m
+-rwx------ 1 utsav utsav 28 Aug 30 11:01 [01;32mpoem.txt[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/RoseshSCE:$clear
+[H[2J]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/RoseshSCE:$exit
+exit
+
+Script done on Sunday 30 August 2015 11:05:13 AM IST
+Script started on Sunday 30 August 2015 11:05:16 AM IST
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$pwd
+/home/utsav/Documents/SCEAssignments/Assignment1
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$echo "mangoes bananas" > fri[K[K[K./Sarabhai/f[KFridge.txt [K
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$ls -l F
+ls: cannot access F: No such file or directory
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$ls -l Fr[K[K[K[K[K[K[K[Kcd Sarabhai/
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$cd Sarabhai/[C[C[C[C[C[5Pls -l Fridge.txt 
+-rw-rw-r-- 1 utsav utsav 16 Aug 30 11:06 Fridge.txt
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$sudo chown indra Fridge.txt 
+[sudo] password for utsav: 
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$ls -l
+total 8
+-rw-rw-r-- 1 indra utsav   16 Aug 30 11:06 Fridge.txt
+drwxrwxr-x 2 utsav utsav 4096 Aug 30 11:05 [0m[01;34mRosesh[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$ls -lsudo chown indra Fridge.txt [1P[1P[1P[1P[1P[1@m[1@a[1@y[1@a
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$sudo chown maya Fridge.txt [C[C[C[C[Cls -l[K
+total 8
+-rw-rw-r-- 1 maya  utsav   16 Aug 30 11:06 Fridge.txt
+drwxrwxr-x 2 utsav utsav 4096 Aug 30 11:05 [0m[01;34mRosesh[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$ls -lsudo chown maya Fridge.txt [1P[1P[1P[1@g[1@r[1@p[C[C[C[C[C[1P[1P[1P[1P[1@r[1@o[1@s[1@e[1@s[1@h
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$ls
+Fridge.txt  [0m[01;34mRosesh[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$lssudo chgrp rosesh Fridge.txt [C[C[C[C[Cls -l[Ksudo chown maya Fridge.txt [C[C[C[C[Cls -l[K
+total 8
+-rw-rw-r-- 1 maya  rosesh   16 Aug 30 11:06 Fridge.txt
+drwxrwxr-x 2 utsav utsav  4096 Aug 30 11:05 [0m[01;34mRosesh[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$mkdir shelf
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$ls [K
+Fridge.txt  [0m[01;34mRosesh[0m  [01;34mshelf[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$c[Klsmkdir shelf[C[C[C[C[C[6Pls -l[Ksudo chgrp rosesh Fridge.txt [C[C[C[C[Cls -l[Ksudo chown maya Fridge.txt [1P[1P[1P[1P[1@$[1@U[1@S[1@E[1@R
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$ls -al
+total 20
+drwxrwxr-x 4 utsav utsav  4096 Aug 30 11:08 [0m[01;34m.[0m
+drwxrwxr-x 7 utsav utsav  4096 Aug 30 10:55 [01;34m..[0m
+-rw-rw-r-- 1 utsav rosesh   16 Aug 30 11:06 Fridge.txt
+drwxrwxr-x 2 utsav utsav  4096 Aug 30 11:05 [01;34mRosesh[0m
+drwxrwxr-x 2 utsav utsav  4096 Aug 30 11:08 [01;34mshelf[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$clear
+[H[2J]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$sudo usermod -a -G roshesh[C[1Pesh[C[C[C $USR[KER
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$ls -l
+total 12
+-rw-rw-r-- 1 utsav rosesh   16 Aug 30 11:06 Fridge.txt
+drwxrwxr-x 2 utsav utsav  4096 Aug 30 11:05 [0m[01;34mRosesh[0m
+drwxrwxr-x 2 utsav utsav  4096 Aug 30 11:08 [01;34mshelf[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$groups
+utsav adm cdrom sudo dip plugdev lpadmin sambashare
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$groups[K[K[K[K[K[Kcat /etc/groups[1@s[1@u[1@d[1@o[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C | grep ''r'o's'e's'h'[C
+cat: /etc/groups: No such file or directory
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$sudo cat /etc/groups | grep 'rosesh'[C[1P
+[01;31m[Krosesh[m[K:x:1005:maya,utsav
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$pwd
+/home/utsav/Documents/SCEAssignments/Assignment1/Sarabhai
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$cd r[KRosesh/
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/RoseshSCE:$ls
+file1  [0m[01;32mpoem2.txt[0m  [01;32mpoem3.txt[0m  [01;32mpoem.txt[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/RoseshSCE:$tar -cvf ZippedPoetry.tar .
+./
+./poem.txt
+tar: ./ZippedPoetry.tar: file is the archive; not dumped
+./file1
+./poem3.txt
+./poem2.txt
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/RoseshSCE:$rm [K[K[Kls
+file1  [0m[01;32mpoem2.txt[0m  [01;32mpoem3.txt[0m  [01;32mpoem.txt[0m  [01;31mZippedPoetry.tar[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/RoseshSCE:$rm file1
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/RoseshSCE:$rm ZippedPoetry.tar 
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/RoseshSCE:$rm ZippedPoetry.tar [C[C[C[C[C[C[C[Cfile1[K[C[C[C[C[Cls[Ktar -cvf ZippedPoetry.tar .
+./
+./poem.txt
+tar: ./ZippedPoetry.tar: file is the archive; not dumped
+./poem3.txt
+./poem2.txt
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/RoseshSCE:$ls
+[0m[01;32mpoem2.txt[0m  [01;32mpoem3.txt[0m  [01;32mpoem.txt[0m  [01;31mZippedPoetry.tar[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/RoseshSCE:$rm ZippedPoetry.tar [K
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/RoseshSCE:$ls
+[0m[01;32mpoem2.txt[0m  [01;32mpoem3.txt[0m  [01;32mpoem.txt[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/RoseshSCE:$lsrm ZippedPoetry.tar[C[C[C[C[Cls[Ktar -cvf ZippedPoetry.tar .
+./
+./poem.txt
+tar: ./ZippedPoetry.tar: file is the archive; not dumped
+./poem3.txt
+./poem2.txt
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/RoseshSCE:$cla[Kear
+[H[2J]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/RoseshSCE:$r[Ktar[K[K[Kexit
+exit
+
+Script done on Sunday 30 August 2015 11:12:05 AM IST
+Script started on Sunday 30 August 2015 11:12:06 AM IST
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$pwd
+/home/utsav/Documents/SCEAssignments/Assignment1
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cd Sarabhai/
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$cd Rosesh/
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/RoseshSCE:$ls
+[0m[01;32mpoem2.txt[0m  [01;32mpoem3.txt[0m  [01;32mpoem.txt[0m  [01;31mZippedPoetry.tar[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/RoseshSCE:$tar -xvf ZippedPoetry.tar -C ./../shelf/
+./
+./poem.txt
+./poem3.txt
+./poem2.txt
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/RoseshSCE:$cd ..
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$cd[K[Kls
+Fridge.txt  [0m[01;34mRosesh[0m  [01;34mshelf[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$cd shelf/
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/shelfSCE:$ls
+[0m[01;32mpoem2.txt[0m  [01;32mpoem3.txt[0m  [01;32mpoem.txt[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/shelfSCE:$sudo deluser maya rosesh
+[sudo] password for utsav: 
+Sorry, try again.
+[sudo] password for utsav: 
+Removing user `maya' from group `rosesh' ...
+Done.
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/shelfSCE:$sudo deluser maya rosesh[1P rosesh[1P rosesh[1P rosesh[1P rosesh$ roseshu rosesht roseshs rosesh[1P rosesh[1P rosesh[1P roseshU roseshS roseshE roseshR rosesh
+Removing user `utsav' from group `rosesh' ...
+Done.
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/shelfSCE:$sudo groupdel rosesh
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/shelfSCE:$si[Kudo user [Kdel maya
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/shelfSCE:$sudo userdel maya[K[K[K[Kindra
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/shelfSCE:$sudo userdel indra[K[K[K[K[Kdoer
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/shelfSCE:$sudo userdel doer[K[K[K[Kbarney
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/shelfSCE:$clear
+[H[2J]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/Sarabhai/shelfSCE:$clearsudo userdel barney[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+exit
+
+Script done on Sunday 30 August 2015 11:15:02 AM IST
+Script started on Sunday 30 August 2015 11:15:04 AM IST
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$pwd
+/home/utsav/Documents/SCEAssignments/Assignment1
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$ls
+1.txt            201505581_Assgn1.script  [0m[01;34m$DIR[0m  [01;34mdir2[0m      [01;34mfolder[0m     list_item   Q16.txt  Q18.txt~  temp.txt~
+201505581_1.txt  check                    [01;34mdir1[0m  echo.txt  legendary  number.txt  Q18.txt  [01;34mSarabhai[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1SCE:$cd Sarabhai/
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$cd [K[K[Krm -R .r[K/Rosesh/
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$ls
+Fridge.txt  [0m[01;34mshelf[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$sudo mkdir -p[K[K[K[K[K[K[K[K[K[K[K[K[Ksu -
+Password: 
+su: Authentication failure
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$su -[K[Kdo root
+[sudo] password for utsav: 
+sudo: root: command not found
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$cleae
+No command 'cleae' found, did you mean:
+ Command 'clear' from package 'ncurses-bin' (main)
+cleae: command not found
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$cleae[Kr
+[H[2J]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$sudo mkdir -p /Mango/Dubba/Funday/Falad/
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$sudo cd /Mango/Dubba/Funday/Falad/
+sudo: cd: command not found
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/Assignment1/SarabhaiSCE:$sudo cd /Mango/Dubba/Funday/Falad/[1P[1P[1P[1P[1P
+]0;utsav@utsav-Dell-System-Inspiron-N4110: /Mango/Dubba/Funday/FaladSCE:$pwd
+/Mango/Dubba/Funday/Falad
+]0;utsav@utsav-Dell-System-Inspiron-N4110: /Mango/Dubba/Funday/FaladSCE:$pwd | tr ''/'[C ''\'n'[C | tail -n+2
+Mango
+Dubba
+Funday
+Falad
+]0;utsav@utsav-Dell-System-Inspiron-N4110: /Mango/Dubba/Funday/FaladSCE:$pwd | tr '/' '\n' | tail -n+2 | cut -c 1-2
+Ma
+Du
+Fu
+Fa
+]0;utsav@utsav-Dell-System-Inspiron-N4110: /Mango/Dubba/Funday/FaladSCE:$pwd | tr '/' '\n' | tail -n+2 | cut -c 1-2 | tr -d  [K\[K''\'n'[C
+MaDuFuFa]0;utsav@utsav-Dell-System-Inspiron-N4110: /Mango/Dubba/Funday/FaladSCE:$exit
+exit
+
+Script done on Sunday 30 August 2015 11:18:48 AM IST
+Script started on Sunday 30 August 2015 07:27:51 PM IST
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/201505581_Assgn1SCE:$ssh chokshi.utsav@web.iiit.ac.in
+chokshi.utsav@web.iiit.ac.in's password: 
+Last login: Sun Aug 30 17:45:39 2015 from 10.1.130.80
+Could not chdir to home directory /mtech/mtech2k15/cse/chokshi.utsav: No such file or directory
+[?1034h-bash-4.1$ pwd
+/
+-bash-4.1$ cd[K[Kls
+[0m[01;34malumni[0m       [01;34mbin[0m   [01;34mcgroup[0m  dummy  [01;34mhome[0m  [01;34mlib64[0m       [01;34mmedia[0m  [01;34mmnt[0m  [01;34mnet[0m  [01;34mpg[0m    [01;34mresearch[0m  [01;34msbin[0m     [01;34msrv[0m  [30;42mtmp[0m  [01;34musr[0m
+aquota.user  [01;34mboot[0m  [01;34mdev[0m     [01;34metc[0m    [01;34mlib[0m   [01;34mlost+found[0m  [01;34mmisc[0m   [01;34mms[0m   [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m      [01;34mselinux[0m  [01;34msys[0m  [01;34mug[0m   [01;34mvar[0m
+[m-bash-4.1$ cd home
+-bash-4.1$ ls
+[0m[01;34m200-proxy[0m         [01;34mbsrao[0m       [01;34mganesan[0m      [01;34mjp_posham[0m     [01;34mmbp[0m                [01;34mpjn[0m                 [01;34mshyamala[0m          [01;34muser1[0m
+[01;34maadhar[0m            [01;34mcab[0m         [01;34mganesh1[0m      [01;34mjsivaswamy[0m    [01;34mmbprasad[0m           [01;34mprabha[0m              [01;34mslc_mentoring[0m     [01;34mvamsi.pullakavi[0m
+[01;34mabi_chem[0m          [01;34mclamav[0m      [01;34mgregeti[0m      [01;34mjuniorbook[0m    [01;34mmuruali[0m            [01;34mprabhakararao.k[0m     [01;34mspambuck[0m          [01;34mvenkatesh.choppella[0m
+[01;34macad_council[0m      [01;34mCommittees[0m  [01;34mgupta[0m        [01;34mkamal[0m         [01;34mmusic[0m              [01;34mprasad.kosana[0m       [01;34mspamfilter[0m        [01;34mvikram_pudi[0m
+[01;34madmin[0m             [01;34mcpro[0m        [01;34mgurao[0m        [01;34mkirankumar_n[0m  [01;34mmuzafer[0m            [01;34mprobe_xml[0m           [01;34msql_learning[0m      [01;34mvishal[0m
+[01;34mak_rao[0m            [01;34mcsi-iiit[0m    [01;34mharish.p[0m     [01;34mkkishore[0m      [01;34mnagios[0m             [01;34mrevanth.kondapalli[0m  [01;34msrao[0m              [01;34mvv[0m
+[01;34manoop[0m             [01;34mcultural[0m    [01;34mhemant[0m       [01;34mksn[0m           [01;34mndr[0m                [01;34mrk[0m                  [01;34mstuff[0m             [01;34mwebadmin200[0m
+aquota.user       [01;34mdance[0m       [01;34mhumanvalues[0m  [01;34mleo[0m           [01;34mneelomadhab.padhy[0m  [01;34mrobocamp[0m            [01;34msummercamp[0m        [01;34myearbook[0m
+[01;34mashakiran[0m         [01;34mdbms[0m        [01;34miiit[0m         [01;34mlocal[0m         [01;34mnew[0m                [01;34mrohitkumar[0m          [01;34msysadmin[0m          [01;34myoga[0m
+[01;34matif[0m              [01;34mdirector[0m    [01;34mjawahar[0m      [01;34mlost+found[0m    [01;34mns2_lib[0m            [01;34mroom_allocation[0m     [01;34mteachinglab[0m       [01;34myuktahara[0m
+[01;34mayush.dhigraug08[0m  [01;34mdsa[0m         [01;34mjayaprakash[0m  [01;34mmadhu[0m         [01;34mparabhkrarao.k[0m     [01;34mroot2[0m               [01;34mtest[0m              [01;34mzafar[0m
+[01;34mbezawada[0m          [01;34mfinearts[0m    [01;34mjinx[0m         [01;34mmail_7MAY2k7[0m  [01;34mparliament[0m         [01;34msangal[0m              [01;34mtestbed[0m
+[01;34mbipin[0m             [01;34mfsttcs05[0m    [01;34mjp[0m           [01;34mmailman[0m       [01;34mpgupta[0m             [01;34msaurabh.barjatiya[0m   [01;34mtestgroup_jaspal[0m
+[01;34mbln[0m               [01;34mfunfood[0m     [01;34mjpk[0m          [01;34mmayanktest[0m    [01;34mphoto[0m              [01;34mshatrunjay.rawat[0m    [01;34mtheatre[0m
+[m-bash-4.1$ cd [K[K[Kmkdir
+mkdir: missing operand
+Try `mkdir --help' for more information.
+-bash-4.1$ mkdir SECUE
+mkdir: cannot create directory `SECUE': Permission denied
+-bash-4.1$ mkdir SECUE[KRE
+mkdir: cannot create directory `SECURE': Permission denied
+-bash-4.1$ sudo mkdir SECURE
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+[sudo] password for chokshi.utsav: 
+chokshi.utsav is not in the sudoers file.  This incident will be reported.
+-bash-4.1$ cd user1
+-bash: cd: user1: Permission denied
+-bash-4.1$ ls -l
+^C^Z
+^C^Z
+exit
+user1
+nin
+total 476
+drwx------.  3 root              root               4096 Apr 27  2007 [0m[01;34m200-proxy[m
+-bash-4.1$ 
+-bash-4.1$ exit
+logout
+Connection to web.iiit.ac.in closed.
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/201505581_Assgn1SCE:$ssh chokshi.utsav@web.iiit.ac.in
+chokshi.utsav@web.iiit.ac.in's password: 
+Last login: Sun Aug 30 19:28:53 2015 from 10.1.130.80
+Could not chdir to home directory /mtech/mtech2k15/cse/chokshi.utsav: No such file or directory
+[?1034h-bash-4.1$ ls
+[0m[01;34malumni[0m       [01;34mbin[0m   [01;34mcgroup[0m  dummy  [01;34mhome[0m  [01;34mlib64[0m       [01;34mmedia[0m  [01;34mmnt[0m  [01;34mnet[0m  [01;34mpg[0m    [01;34mresearch[0m  [01;34msbin[0m     [01;34msrv[0m  [30;42mtmp[0m  [01;34musr[0m
+aquota.user  [01;34mboot[0m  [01;34mdev[0m     [01;34metc[0m    [01;34mlib[0m   [01;34mlost+found[0m  [01;34mmisc[0m   [01;34mms[0m   [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m      [01;34mselinux[0m  [01;34msys[0m  [01;34mug[0m   [01;34mvar[0m
+[m-bash-4.1$ cd usr
+-bash-4.1$ ls
+[0m[01;34marm-linux-gnueabi[0m  [01;34mbin[0m  [01;34metc[0m  [01;34mgames[0m  [01;34minclude[0m  [01;34mlib[0m  [01;34mlib64[0m  [01;34mlibexec[0m  [01;34mlocal[0m  [01;34msbin[0m  [01;34mshare[0m  [01;34msrc[0m  [01;34mssl[0m  [01;36mtmp[0m
+[m-bash-4.1$ cd ..
+-bash-4.1$ ls
+[0m[01;34malumni[0m       [01;34mbin[0m   [01;34mcgroup[0m  dummy  [01;34mhome[0m  [01;34mlib64[0m       [01;34mmedia[0m  [01;34mmnt[0m  [01;34mnet[0m  [01;34mpg[0m    [01;34mresearch[0m  [01;34msbin[0m     [01;34msrv[0m  [30;42mtmp[0m  [01;34musr[0m
+aquota.user  [01;34mboot[0m  [01;34mdev[0m     [01;34metc[0m    [01;34mlib[0m   [01;34mlost+found[0m  [01;34mmisc[0m   [01;34mms[0m   [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m      [01;34mselinux[0m  [01;34msys[0m  [01;34mug[0m   [01;34mvar[0m
+[m-bash-4.1$ cd ..
+-bash-4.1$ ls
+[0m[01;34malumni[0m       [01;34mbin[0m   [01;34mcgroup[0m  dummy  [01;34mhome[0m  [01;34mlib64[0m       [01;34mmedia[0m  [01;34mmnt[0m  [01;34mnet[0m  [01;34mpg[0m    [01;34mresearch[0m  [01;34msbin[0m     [01;34msrv[0m  [30;42mtmp[0m  [01;34musr[0m
+aquota.user  [01;34mboot[0m  [01;34mdev[0m     [01;34metc[0m    [01;34mlib[0m   [01;34mlost+found[0m  [01;34mmisc[0m   [01;34mms[0m   [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m      [01;34mselinux[0m  [01;34msys[0m  [01;34mug[0m   [01;34mvar[0m
+[m-bash-4.1$ cd pg
+-bash-4.1$ ls
+aquota.group  [0m[01;34mmphil[0m  [01;34mmtech2k10[0m   [01;34mmtech2k8[0m  [01;34mpgdaait[0m           [01;34mpgssp2k11monsoon[0m  [01;34mpgssp2k13spring[0m  [01;34mpgssp2k6[0m        [01;34mpgssp2k9monsoon[0m
+aquota.user   [01;34mms2k3[0m  [01;34mmtech2k11[0m   [01;34mmtech2k9[0m  [01;34mpgdaait2k10[0m       [01;34mpgssp2k11spring[0m   [01;34mpgssp2k3[0m         [01;34mpgssp2k7[0m        [01;34mpgssp2k9spring[0m
+for.sh        [01;34mms2k4[0m  [01;34mmtech2k12[0m   new.txt   [01;34mpgssp[0m             [01;34mpgssp2k12monsoon[0m  [01;34mpgssp2k4[0m         [01;34mpgssp2k8[0m        [01;34mpostbsc[0m
+[01;34mlost+found[0m    [01;34mmtech[0m  [01;34mmtech2k15M[0m  [01;34mpg[0m        [01;34mpgssp2k10monsoon[0m  [01;34mpgssp2k12spring[0m   [01;34mpgssp2k5[0m         [01;34mpgssp2k8spring[0m  rhinstall-stage2.img
+[m-bash-4.1$ cd pg
+-bash-4.1$ ls
+aquota.user  [0m[01;34mmphil[0m  [01;34mmtech2k10[0m  [01;34mmtech2k8[0m  [01;34mpgdaait2k10[0m       [01;34mpgssp2k4[0m  [01;34mpgssp2k7[0m        [01;34mpgssp2k9monsoon[0m  rhinstall-stage2.img
+for.sh       [01;34mms2k3[0m  [01;34mmtech2k6[0m   [01;34mmtech2k9[0m  [01;34mpgssp2k10monsoon[0m  [01;34mpgssp2k5[0m  [01;34mpgssp2k8[0m        [01;34mpgssp2k9spring[0m
+[01;34mlost+found[0m   [01;34mms2k4[0m  [01;34mmtech2k7[0m   new.txt   [01;34mpgssp2k3[0m          [01;34mpgssp2k6[0m  [01;34mpgssp2k8spring[0m  [01;34mpostbsc[0m
+[m-bash-4.1$ mkdir mtec[K[K[K[K[K[K[K[K[K[Kls -l
+total 109068
+-rw-------.  1 root root    110592 Sep 11  2010 aquota.user
+-rw-r--r--.  1 root root        58 Jan 24  2010 for.sh
+drwxr-xr-x.  2 root root      4096 Aug 18  2003 [0m[01;34mlost+found[0m
+drwxr-xr-x.  3 root root      4096 Jul 30  2010 [01;34mmphil[0m
+drwxr-xr-x.  4 root root      4096 Jul  6  2007 [01;34mms2k3[0m
+drwxr-xr-x. 27 root root      4096 Aug  8  2007 [01;34mms2k4[0m
+drwxr-xr-x.  8 root root      4096 Aug 14  2010 [01;34mmtech2k10[0m
+drwxr-xr-x.  8 root root      4096 Jul 21  2006 [01;34mmtech2k6[0m
+drwxr-xr-x.  8 root root      4096 Jul  9  2007 [01;34mmtech2k7[0m
+drwxr-xr-x.  8 root root      4096 Aug  8  2008 [01;34mmtech2k8[0m
+drwxr-xr-x.  8 root root      4096 Jul 30  2009 [01;34mmtech2k9[0m
+-rw-r--r--.  1 root root       179 Jan 24  2010 new.txt
+drwxr-xr-x.  2 root root      4096 Jul 30  2010 [01;34mpgdaait2k10[0m
+drwxr-xr-x. 54 root root      4096 Jul 28  2010 [01;34mpgssp2k10monsoon[0m
+drwxr-xr-x. 11 root root      4096 Jul  6  2007 [01;34mpgssp2k3[0m
+drwxr-xr-x. 18 root root      4096 Dec 14  2004 [01;34mpgssp2k4[0m
+drwxr-xr-x. 23 root root      4096 Feb 27  2008 [01;34mpgssp2k5[0m
+drwxr-xr-x. 32 root root      4096 Aug  7  2008 [01;34mpgssp2k6[0m
+drwxr-xr-x. 49 root root      4096 Jan  3  2008 [01;34mpgssp2k7[0m
+drwxr-xr-x. 33 root root      4096 Nov 17  2008 [01;34mpgssp2k8[0m
+drwxr-xr-x. 32 root root      4096 Jan 21  2009 [01;34mpgssp2k8spring[0m
+drwxr-xr-x. 48 root root      4096 Aug 14  2010 [01;34mpgssp2k9monsoon[0m
+drwxr-xr-x. 27 root root      4096 Aug 25  2010 [01;34mpgssp2k9spring[0m
+drwxr-xr-x.  3 root root      4096 Jul 30  2010 [01;34mpostbsc[0m
+-rw-r--r--.  1 root root 111480832 Feb 19  2010 rhinstall-stage2.img
+[m-bash-4.1$ cd ..
+-bash-4.1$ ls -l
+total 109212
+-rw-------.  1 root root                 17408 Aug  9  2011 aquota.group
+-rw-------.  1 root root                193536 Oct  3  2013 aquota.user
+-rw-r--r--.  1 root root                    58 Jan 24  2010 for.sh
+drwxr-xr-x.  2 root root                  4096 Aug 18  2003 [0m[01;34mlost+found[0m
+drwxr-xr-x.  3 root root                  4096 Jul 30  2010 [01;34mmphil[0m
+drwxr-xr-x.  4 root root                  4096 Jul  6  2007 [01;34mms2k3[0m
+drwxr-xr-x. 27 root root                  4096 Aug  8  2007 [01;34mms2k4[0m
+drwxr-xr-x.  5 root root                  4096 Jul 31  2014 [01;34mmtech[0m
+drwxr-xr-x.  8 root root                  4096 Aug 14  2010 [01;34mmtech2k10[0m
+drwxr-xr-x.  7 root           201113      4096 Aug 25  2013 [01;34mmtech2k11[0m
+drwxr-xr-x.  7 root root                  4096 Aug 25  2013 [01;34mmtech2k12[0m
+drwxr-xr-x.  3 root root                  4096 Jun 15 15:00 [01;34mmtech2k15M[0m
+drwxr-xr-x.  8 root root                  4096 Aug  8  2008 [01;34mmtech2k8[0m
+drwxr-xr-x.  8 root root                  4096 Jul 30  2009 [01;34mmtech2k9[0m
+-rw-r--r--.  1 root root                   219 Jan  5  2011 new.txt
+drwxr-xr-x. 23 root root                  4096 Jan  5  2011 [01;34mpg[0m
+drwxr-xr-x.  6 root root                  4096 Aug 25  2013 [01;34mpgdaait[0m
+drwxr-xr-x.  2 root root                  4096 Jul 30  2010 [01;34mpgdaait2k10[0m
+drwxr-xr-x.  4 root root                  4096 Dec 30  2013 [01;34mpgssp[0m
+drwxr-xr-x. 60 root root                  4096 Aug 25  2013 [01;34mpgssp2k10monsoon[0m
+drwxr-xr-x. 52 root pgssp2k11monsoon      4096 Aug 25  2013 [01;34mpgssp2k11monsoon[0m
+drwxr-xr-x. 46 root root                  4096 Aug 25  2013 [01;34mpgssp2k11spring[0m
+drwxr-xr-x. 80 root root                  4096 Sep 29  2014 [01;34mpgssp2k12monsoon[0m
+drwxr-xr-x. 49 root root                  4096 Aug 25  2013 [01;34mpgssp2k12spring[0m
+drwxr-xr-x. 54 root root                  4096 Aug 25  2013 [01;34mpgssp2k13spring[0m
+drwxr-xr-x. 11 root root                  4096 Jul  6  2007 [01;34mpgssp2k3[0m
+drwxr-xr-x. 18 root root                  4096 Dec 14  2004 [01;34mpgssp2k4[0m
+drwxr-xr-x. 23 root root                  4096 Feb 27  2008 [01;34mpgssp2k5[0m
+drwxr-xr-x. 33 root root                  4096 Aug 25  2013 [01;34mpgssp2k6[0m
+drwxr-xr-x. 50 root root                  4096 Aug 25  2013 [01;34mpgssp2k7[0m
+drwxr-xr-x. 34 root root                  4096 Aug 25  2013 [01;34mpgssp2k8[0m
+drwxr-xr-x. 34 root root                  4096 Aug 25  2013 [01;34mpgssp2k8spring[0m
+drwxr-xr-x. 49 root root                  4096 Aug 25  2013 [01;34mpgssp2k9monsoon[0m
+drwxr-xr-x. 49 root root                  4096 Aug 25  2013 [01;34mpgssp2k9spring[0m
+drwxr-xr-x.  3 root root                  4096 Jul 30  2010 [01;34mpostbsc[0m
+-rw-r--r--.  1 root root             111480832 Feb 19  2010 rhinstall-stage2.img
+[m-bash-4.1$ cd pg
+-bash-4.1$ mkdi[K[K[K[Kls
+aquota.user  [0m[01;34mmphil[0m  [01;34mmtech2k10[0m  [01;34mmtech2k8[0m  [01;34mpgdaait2k10[0m       [01;34mpgssp2k4[0m  [01;34mpgssp2k7[0m        [01;34mpgssp2k9monsoon[0m  rhinstall-stage2.img
+for.sh       [01;34mms2k3[0m  [01;34mmtech2k6[0m   [01;34mmtech2k9[0m  [01;34mpgssp2k10monsoon[0m  [01;34mpgssp2k5[0m  [01;34mpgssp2k8[0m        [01;34mpgssp2k9spring[0m
+[01;34mlost+found[0m   [01;34mms2k4[0m  [01;34mmtech2k7[0m   new.txt   [01;34mpgssp2k3[0m          [01;34mpgssp2k6[0m  [01;34mpgssp2k8spring[0m  [01;34mpostbsc[0m
+[m-bash-4.1$ mkdir mtech2k15
+mkdir: cannot create directory `mtech2k15': Permission denied
+-bash-4.1$ mkdir mtech2k15[K[K[K[K[K[K[K[K[KSECURE
+mkdir: cannot create directory `SECURE': Permission denied
+-bash-4.1$ cdc[K mtech2k14
+-bash: cd: mtech2k14: No such file or directory
+-bash-4.1$ cd mtech2k14[K0
+-bash-4.1$ ls
+[0m[01;34mcase[0m  [01;34mcl[0m  [01;34mcnsb[0m  [01;34mcse[0m  [01;34mcsis[0m  [01;34mvlsi[0m
+[m-bash-4.1$ cd cse
+-bash-4.1$ ls
+-bash-4.1$ mkdir temp
+mkdir: cannot create directory `temp': Permission denied
+-bash-4.1$ cd ..
+-bash-4.1$ ls
+[0m[01;34mcase[0m  [01;34mcl[0m  [01;34mcnsb[0m  [01;34mcse[0m  [01;34mcsis[0m  [01;34mvlsi[0m
+[m-bash-4.1$ ls -l
+total 24
+drwxr-xr-x. 2 root root 4096 Jul 30  2010 [0m[01;34mcase[0m
+drwxr-xr-x. 2 root root 4096 Jul 30  2010 [01;34mcl[0m
+drwxr-xr-x. 2 root root 4096 Jul 30  2010 [01;34mcnsb[0m
+drwxr-xr-x. 2 root root 4096 Jul 30  2010 [01;34mcse[0m
+drwxr-xr-x. 2 root root 4096 Jul 30  2010 [01;34mcsis[0m
+drwxr-xr-x. 3 root root 4096 Aug 14  2010 [01;34mvlsi[0m
+[m-bash-4.1$ exit
+logout
+Connection to web.iiit.ac.in closed.
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/201505581_Assgn1SCE:$exit
+exit
+
+Script done on Sunday 30 August 2015 07:33:44 PM IST
+Script started on Sunday 30 August 2015 07:59:41 PM IST
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/201505581_Assgn1SCE:$exitssh chokshi.utsav@web.iiit.ac.in[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcp [K[K[Kcat 1.txt | tee {}1}a},}1}b}[C.txt > /dev/null
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/201505581_Assgn1SCE:$ls
+1a.txt  1.txt                    201505581_Assgn1.txt   check  [0m[01;34mdir1[0m  echo.txt  legendary  number.txt  Q18.txt   [01;34mSarabhai[0m
+1b.txt  201505581_Assgn1.script  201505581_Assgn1.txt~  [01;34m$DIR[0m   [01;34mdir2[0m  [01;34mfolder[0m    list_item  Q16.txt     Q18.txt~  temp.txt~
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/201505581_Assgn1SCE:$cat 1a.txt
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/201505581_Assgn1SCE:$cat 1a.txt[1P.txtb.txt
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/201505581_Assgn1SCE:$exit
+exit
+
+Script done on Sunday 30 August 2015 08:01:55 PM IST
+Script started on Sunday 30 August 2015 11:01:47 PM IST
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/201505581_Assgn1[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 201505581_Assgn1]$ [m ssh utsav@127.0.0.1
+utsav@127.0.0.1's password: 
+Welcome to Ubuntu 14.04.3 LTS (GNU/Linux 3.16.0-46-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com/
+
+0 packages can be updated.
+0 updates are security updates.
+
+Last login: Sun Aug 30 22:55:51 2015 from localhost
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 ~]$ [m l[Kpwd
+/home/utsav
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 ~]$ [m mkdir SECURE
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 ~]$ [m ls
+cat      [0m[01;34mdir[0m        [01;34mDownloads[0m         [01;32mfirstScript[0m  [01;34mMusic[0m     [01;34mPublic[0m  somefile  temp11   [01;34mTemplates[0m    [01;34mVideos[0m
+[01;34mDesktop[0m  [01;34mDocuments[0m  examples.desktop  hardinfo     [01;34mPictures[0m  [01;34mSECURE[0m  [01;34msrc[0m       temp11~  temp.script
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 ~]$ [m scp ''.'m'm'e'[1P'[1P'e'e't'i'n'g' 'p'o'i'n't'[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls -a;
+[0m[01;34m.[0m              [01;34m.cache[0m   [01;34mDesktop[0m    examples.desktop  [01;34m.gphoto[0m        [01;34m.local[0m    .profile  [01;34m.ssh[0m          [01;34mVideos[0m
+[01;34m..[0m             cat      [01;34mdir[0m        [01;32mfirstScript[0m       [01;34m.gvfs[0m          [01;34m.mozilla[0m  [01;34mPublic[0m    temp11        .Xauthority
+.bash_history  [01;34m.compiz[0m  .dmrc      [01;34m.gconf[0m            hardinfo       [01;34mMusic[0m     [01;34mSECURE[0m    temp11~       .xinputrc
+.bash_logout   [01;34m.config[0m  [01;34mDocuments[0m  .gitconfig        [01;34m.hardinfo[0m      [01;34mPictures[0m  [01;34m.shutter[0m  [01;34mTemplates[0m     .xsession-errors
+.bashrc        [01;34m.dbus[0m    [01;34mDownloads[0m  [01;34m.gnome2[0m           .ICEauthority  [01;34m.pip[0m      somefile  temp.script   .xsession-errors.old
+.bashrc~       [01;34m.dc++[0m    [01;34m.dtella[0m    [01;34m.gnome2_private[0m   [01;34m.kde[0m           [01;34m.pki[0m      [01;34msrc[0m       [01;34m.thunderbird[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 ~]$ [m cd [K[K[Kcd SECURE
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/SECURE[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 SECURE]$ [m cd ..
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 ~]$ [m cd Documents/
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 Documents]$ [m cd [K[K[Kls
+[0m[01;34mAPSAssignments[0m  [01;34mcodechef[0m    [01;34mDMAAssignments[0m  [01;34mImpDocs[0m         [01;34mOSResources[0m  [01;31mScan.zip[0m        [01;34mSCELabs[0m        tempFile
+[37;44mAssign[0m          [01;34mCodeForces[0m  [01;34mhackerrank[0m      [01;34mOS Assignments[0m  [01;34mScan[0m         [01;34mSCEAssignments[0m  [01;34mSCE Resources[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 Documents]$ [m cd SCEAssignments/
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 SCEAssignments]$ [m ls
+[0m[01;34m201505581_Assgn1[0m         [01;34m201505581_Lab1[0m         201505581_lab1.txt   [01;34marya_stark[0m  [01;34mdropbox[0m  [01;34mGOT[0m          [01;34mhodor[0m  joffery.py    [01;34mned_stark[0m  viper
+[01;31m201505581_Assgn1.tar.gz[0m  [01;31m201505581_Lab1.tar.gz[0m  201505581_lab1.txt~  [01;34mbran_stark[0m  file1    grey_worm.c  [01;34mhound[0m  jon_snow.txt  STDOUT
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 SCEAssignments]$ [m ls -a
+[0m[01;34m.[0m                 [01;31m201505581_Assgn1.tar.gz[0m  201505581_lab1.txt   [01;34mbran_stark[0m  [01;34mGOT[0m          [01;34mhound[0m         [01;34mned_stark[0m  viper
+[01;34m..[0m                [01;34m201505581_Lab1[0m           201505581_lab1.txt~  [01;34mdropbox[0m     grey_worm.c  joffery.py    STDOUT
+[01;34m201505581_Assgn1[0m  [01;31m201505581_Lab1.tar.gz[0m    [01;34marya_stark[0m           file1       [01;34mhodor[0m        jon_snow.txt  .tyrion
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 SCEAssignments]$ [m cd ..
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 Documents]$ [m ls
+[0m[01;34mAPSAssignments[0m  [01;34mcodechef[0m    [01;34mDMAAssignments[0m  [01;34mImpDocs[0m         [01;34mOSResources[0m  [01;31mScan.zip[0m        [01;34mSCELabs[0m        tempFile
+[37;44mAssign[0m          [01;34mCodeForces[0m  [01;34mhackerrank[0m      [01;34mOS Assignments[0m  [01;34mScan[0m         [01;34mSCEAssignments[0m  [01;34mSCE Resources[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 Documents]$ [m cd SCEAssignments/
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 SCEAssignments]$ [m ls
+[0m[01;34m201505581_Assgn1[0m         [01;34m201505581_Lab1[0m         201505581_lab1.txt   [01;34marya_stark[0m  [01;34mdropbox[0m  [01;34mGOT[0m          [01;34mhodor[0m  joffery.py    [01;34mned_stark[0m  viper
+[01;31m201505581_Assgn1.tar.gz[0m  [01;31m201505581_Lab1.tar.gz[0m  201505581_lab1.txt~  [01;34mbran_stark[0m  file1    grey_worm.c  [01;34mhound[0m  jon_snow.txt  STDOUT
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 SCEAssignments]$ [m cd 201505581_Assgn1/
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/201505581_Assgn1[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 201505581_Assgn1]$ [m ls
+1a.txt  1.txt                    201505581_Assgn1.txt   check  [0m[01;34mdir1[0m  echo.txt  legendary  number.txt  Q18.txt   [01;34mSarabhai[0m
+1b.txt  201505581_Assgn1.script  201505581_Assgn1.txt~  [01;34m$DIR[0m   [01;34mdir2[0m  [01;34mfolder[0m    list_item  Q16.txt     Q18.txt~  temp.txt~
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/201505581_Assgn1[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 201505581_Assgn1]$ [m ls -a
+[0m[01;34m.[0m   1a.txt  1.txt                    201505581_Assgn1.txt   check  [01;34mdir1[0m  echo.txt  legendary  .meeting point  Q16.txt  Q18.txt~  temp.txt~
+[01;34m..[0m  1b.txt  201505581_Assgn1.script  201505581_Assgn1.txt~  [01;34m$DIR[0m   [01;34mdir2[0m  [01;34mfolder[0m    list_item  number.txt      Q18.txt  [01;34mSarabhai[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/201505581_Assgn1[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 201505581_Assgn1]$ [m scp ''.'m'e'e't'i'n'g' 'p'o'i'n't'[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+logout
+Connection to 127.0.0.1 closed.
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/201505581_Assgn1[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 201505581_Assgn1]$ [m clear
+[H[2J]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/201505581_Assgn1[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 201505581_Assgn1]$ [m ls -a
+[0m[01;34m.[0m   1a.txt  1.txt                    201505581_Assgn1.txt   check  [01;34mdir1[0m  echo.txt  legendary  .meeting point  Q16.txt  Q18.txt~  temp.txt~
+[01;34m..[0m  1b.txt  201505581_Assgn1.script  201505581_Assgn1.txt~  [01;34m$DIR[0m   [01;34mdir2[0m  [01;34mfolder[0m    list_item  number.txt      Q18.txt  [01;34mSarabhai[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/201505581_Assgn1[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 201505581_Assgn1]$ [m scp ''.'m'[C[K[K[K[K.meeting\ point utsav@127.0.0.1:~/SECURE
+utsav@127.0.0.1's password: 
+.meeting point                                                                                                   0%    0     0.0KB/s   --:-- ETA.meeting point                                                                                                 100%   30     0.0KB/s   00:00    
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/201505581_Assgn1[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 201505581_Assgn1]$ [m pwd
+/home/utsav/Documents/SCEAssignments/201505581_Assgn1
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/201505581_Assgn1[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 201505581_Assgn1]$ [m mkdir temp
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/201505581_Assgn1[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 201505581_Assgn1]$ [m ls
+1a.txt  1.txt                    201505581_Assgn1.txt   check  [0m[01;34mdir1[0m  echo.txt  legendary  number.txt  Q18.txt   [01;34mSarabhai[0m  temp.txt~
+1b.txt  201505581_Assgn1.script  201505581_Assgn1.txt~  [01;34m$DIR[0m   [01;34mdir2[0m  [01;34mfolder[0m    list_item  Q16.txt     Q18.txt~  [01;34mtemp[0m
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/201505581_Assgn1[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 201505581_Assgn1]$ [m cd temp
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/201505581_Assgn1/temp[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 temp]$ [m ls
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/201505581_Assgn1/temp[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 temp]$ [m lscd templs[Kmkdir temppwd[Kscp .meeting\ point utsav@127.0.0.1:~/SECURE[1Putsav@127.0.0.1:~/SECURE[1Putsav@127.0.0.1:~/SECURE[1Putsav@127.0.0.1:~/SECURE[1Putsav@127.0.0.1:~/SECURE[1Putsav@127.0.0.1:~/SECURE[1Putsav@127.0.0.1:~/SECURE[1Putsav@127.0.0.1:~/SECURE[1Putsav@127.0.0.1:~/SECURE[1Putsav@127.0.0.1:~/SECURE[1Putsav@127.0.0.1:~/SECURE[1Putsav@127.0.0.1:~/SECURE[1Putsav@127.0.0.1:~/SECURE[1Putsav@127.0.0.1:~/SECURE[1Putsav@127.0.0.1:~/SECURE[1Putsav@127.0.0.1:~/SECURE[1Putsav@127.0.0.1:~/SECURE[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/''.'m'e'e't'i'n'g' 'p'o'i'n't'[C /home/utsav/Documents/SCEAssignments/2015005581_Assgn1
+utsav@127.0.0.1's password: 
+scp: /home/utsav/SECURE/.meeting: No such file or directory
+scp: point: No such file or directory
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/201505581_Assgn1/temp[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 temp]$ [m scp utsav@127.0.0.1:~/SECURE/'.meeting point' /home/utsav/Documents/SCEAssignments/2015005581_Assgn1[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CScript started on Sunday 30 August 2015 11:13:32 PM IST
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/201505581_Assgn1[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 201505581_Assgn1]$ [m scp utsav@iii[K[K[K127.0.01.1:~/SECURE/'.meetiexitclear[Kg[Kfdscp utsav@127.0.0.1:~/SECURE/'.meeting point' /home/utsav/Documents/SCEAssiggnments/201505581_Assgn1clear[Kclear[A]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/201505581_Assgn1[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 201505581_Assgn1]$ [m gfd[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kfd[K[K[Kscp utsav@127.0.0.1:~/SECURE/'.meeting point' /home/utsav/Documents/SCEAssiggnments/201505581_Assgn1clear[A]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/201505581_Assgn1[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 201505581_Assgn1]$ [m [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscp utsav@127.0.0.1:~/SECURE/'.meeting point' /home/utsav/Documents/SCEAssiggnments/201505581_Assgn1clear[A]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/201505581_Assgn1[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 201505581_Assgn1]$ [m [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce[Kclear
+[H[2J]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/201505581_Assgn1[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 201505581_Assgn1]$ [m clear[K[K[K[K[Kscp [K[K[K[Kscp utsav@127.0.0.1:~/SECURE .
+utsav@127.0.0.1's password: 
+scp: /home/utsav/SECURE: not a regular file
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/201505581_Assgn1[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 201505581_Assgn1]$ [m scp utsav@127.0.0.1:~/SECURE ./ .. .m .e .e .t .i .n .g .[C .[1P.\ .[C .p .o .i .n .t .[C[C
+utsav@127.0.0.1's password: 
+scp: /home/utsav/SECURE/.meeting: No such file or directory
+scp: point: No such file or directory
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/201505581_Assgn1[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 201505581_Assgn1]$ [m scp utsav@127.0.0.1:~/SECURE/.meeting\ point .[C' .[1@'
+utsav@127.0.0.1's password: 
+.meeting point                                                                                                   0%    0     0.0KB/s   --:-- ETA.meeting point                                                                                                 100%   30     0.0KB/s   00:00    
+]0;utsav@utsav-Dell-System-Inspiron-N4110: ~/Documents/SCEAssignments/201505581_Assgn1[0;34m[utsav@utsav-Dell-System-Inspiron-N4110 201505581_Assgn1]$ [m exit
+exit
+
+Script done on Sunday 30 August 2015 11:15:13 PM IST

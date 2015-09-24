@@ -1,0 +1,6 @@
+given name, surname, address, city, DoB, e­mail
+Alice, George, 83 First St, Howard, 12/05/1980, awatson@example.com
+Bob, Charlie, 40 West Ave, Anycity, 02/11/1995, bcharlie@example.com
+Steve, Park, 1981 Songdo, Smartcity, 24/1/1971, spark@exmaple.com
+Mary, Sam, 40 West Ave, Anycity, 30/01/1990, msam@example.com
+Kumar, Anil, Gachibowli 500032, Hyd, 11/12/1989, ​kanil@example.com

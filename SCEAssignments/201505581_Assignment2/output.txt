@@ -1,0 +1,2 @@
+Bob, Charlie, 40 West Ave, Anycity, 02/11/1995, bcharlie@example.com 
+Mary, Sam, 40 West Ave, Anycity, 30/01/1990, msam@example.com 

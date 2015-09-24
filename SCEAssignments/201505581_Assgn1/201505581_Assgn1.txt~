@@ -1,0 +1,94 @@
+1. sudo adduser barney
+   touch legendary
+   sudo chown barney legendary
+
+2. sudo addgroup WaitForIt
+   sudo chgrp WaitForIt legendary
+
+3. ls -al | tail -n+2 |tr -s ' ' | cut -d ' ' -f 2 | sort -n | uniq
+
+4. man echo > echo.txt
+   split -l 10 -a 4 --numeric-suffixes=5 echo.txt 
+
+5.1. ls {x000[5-9],x001[0-4]}
+  2. wc -Lcm {x000[5689],x001[0-4]}
+  3. rm x*[0-9]
+
+6.1.1.PS1="SCE:$" (changing it temporarily)
+  1.2.sudo gedit ~/.bashrc and change PS1 there(changing it permanently)
+6.2.  mkdir \$DIR
+
+7. cat check | tr -s ' ' | tr '\t' ' ' | cut -d ' ' -f 2 | sort -n |tr -d '\n'
+
+8. cat check | tr -s [' ''\t'] | tr '\t' ' '| cut -d ' ' -f 4 | cut -c 2| tr '\n' ' '
+
+9. less echo.txt
+
+10. cp -n ./dir1/* ./dir2
+
+11. sort list_item -o list_item
+
+12. cat * >> 12.txt 2>> 12.txt 
+
+13. sudo find /home/mahul -type f -user mahul -mtime 5
+
+14. seq 1 20 > count.txt
+    tail -n+3 count.txt
+
+15. mv count.txt number.txt
+
+16.cat > Q16.txt
+   K111@REENDEE12CVOOP684US983	GAPMKT	11­-B#POLFSHHMOKGI
+   B48MOOGPOOKCE 
+   cat temp.txt | tr -s [A-Z0-9' '] | tr -d [0-9@#FGJKMPQWXY\-]'-' | tr 'C' 'Z'| tr '\t' ' ' | tr '\n' ' ' > '.meeting point'
+
+17. ssh utsav@127.0.0.1
+    mkdir SECURE
+    exit
+    scp .meeting point utsav@127.0.0.1:~/SECURE
+    scp utsav@127.0.0.1:~/SECURE/'.meeting\ point' ~
+
+18. cat Q18.txt | cut -d ' ' -f 3 | sort | uniq -c
+
+19. cat 1.txt | tee {1a,1b}.txt > /dev/null
+
+20.a.mkdir -p Sarabhai/Rosesh
+     touch ./Sarabhai/ Fridge.txt
+   b.sudo addgroup rosesh
+   c.sudo adduser maya
+     sudo passwd maya
+     sudo usermod -a -G rosesh maya
+   d.sudo adduser indra
+     sudo passwd indra
+   e.echo "ringa ringa roses" > Sarabhai/Roshesh/poem.txt
+
+21.a.chmod 700 ./Sarabhai/Rosesh/poem.txt
+   b.echo "twinkle twinkle little star" > ./Sarabhai/Rosesh/poem2.txt
+     echo "baa baa black sheep" > ./Sarabhai/Rosesh/poem3.txt
+     chmod 740 ./Sarabhai/Rosesh/poem2.txt ./Sarabhai/Rosesh/poem3.txt
+   c. umask 0022
+
+22.cd ..
+   echo "mangoes bananas" > fridge.txt
+   a.ls -l fridge.txt
+     sudo chown indra fridge.txt
+   b.sudo chown maya fridge.txt
+   c.sudo chgrp rosesh fridge.txt
+
+23.mkdir shelf
+   a.sudo chown $USER fridge.txt
+     sudo usermod -a -G rosesh $USER
+   b.cd Rosesh
+     tar -cvf ZippedPoetry.tar .
+     tar -xvf ZippedPoetry.tar -C ./../shelf/
+
+24.a.sudo deluser maya rosesh
+     sudo deluser maya $USER
+     sudo groupdel rosesh
+   b.sudo userdel maya
+     sudo userdel $USER
+   c.rm -R ./Roshesh/
+
+25.a.sudo mkdir -p /Mango/Dubba/Funday/Falad
+   b.cd /Mango/Dubba/Funday/Falad
+   c.pwd | tr '/' '\n' | tail -n+2 | cut -c 1-2 | tr -d '\n'
