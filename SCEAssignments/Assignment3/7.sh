@@ -1,4 +1,5 @@
 #!/bin/bash
+IFS=''
 
 function lsRec(){
 	local temp=$1
