@@ -23,3 +23,19 @@ else
 	exit 1
 fi
 
+ readarray -t array <<< "$(find $dir -type f -atime -1 | grep "^$dir/[a-zA-Z]*$")"
+ 
+ for i in ${array[@]}
+ do
+ 	oldName=`basename $i`
+ 	newName=`echo $oldName | tr A-PQ-Za-pq-z K-ZA-Jk-za-j`
+ 	completeOldName=$dir/$oldName
+ 	completeNewName=$dir/$newName
+ 	#`ls $completeNewName 2> /dev/null`
+ 	if [ -e $completeNewName ]
+ 	then
+ 		echo "Warning: File $completeNewName already exists. Skipping $completeOldName"
+ 	else
+ 		`mv $completeOldName $completeNewName`
+ 	fi
+ done
