@@ -63,6 +63,8 @@ then
     fi
 fi
 
+
+#Processing delete operation
 flag=0
 str="-----------------------------------------------------------------"
 #Processing display operation
@@ -105,6 +107,32 @@ then
 	done
 fi
 
-#if [ $option -eq s ]
-#then
-#fi
+IFS=','
+
+#Processing select operation
+if [ $option = "s" ]
+then
+	read -p "Enter attribute:value = " str
+	attribute=`echo $str | awk 'BEGIN {FS=":"} { print $1 }'`
+	value=`echo $str | awk 'BEGIN {FS=":"} { print $2 }'`
+	
+	count=1
+	fieldNumber=-1
+	for i in ${fieldNames[@]}
+	do
+		if [ $i = $attribute ]
+		then
+			fieldNumber=$count
+		fi
+		count=` expr $count + 1 `
+	done
+	if [ $fieldNumber -eq -1 ]
+	then
+		echo "Invalid Select"
+	else
+		echo $attribute
+		echo $value
+		echo $fieldNumber
+		`awk 'BEGIN{FS=","}{"'"$fieldNumber"'"=="'"$value"'"{print}}' $dbFile`
+	fi
+fi
