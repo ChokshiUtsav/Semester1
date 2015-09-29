@@ -7,6 +7,7 @@ var3=11
 function checkDivisibility()
 {
 	val=$i
+
 	ans=`expr $val % $var1`
 	while [ $ans -eq 0 ]
 	do
@@ -34,7 +35,7 @@ function checkDivisibility()
 	fi
 }
 
-for i in {1..1000}
+for i in {2..1000}
 do
 	checkDivisibility
 done

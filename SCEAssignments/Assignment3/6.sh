@@ -4,6 +4,11 @@ row=$1
 
 while true
 do
+    height=$(tput rows)
+    if [ $row -gt $height ]
+    then
+        echo "Error: Invalid Input!"
+    fi
     width=$(tput cols)
     width=` expr $width - 5 `
     
