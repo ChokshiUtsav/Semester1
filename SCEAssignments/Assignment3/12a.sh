@@ -3,8 +3,9 @@
 while true
 do
 		#echo "CPU Utilization : "
-		CPUUtil=`top | head -4 | grep 'Cpu' | awk '{print $2}'`
-		CPUUtil=`echo "scale=4;$CPUUtil/100" | bc`
+		#CPUUtil=`top | head -4 | grep 'Cpu' | awk '{print $2}'`
+		#CPUUtil=`echo "scale=4;$CPUUtil/100" | bc`
+		CPUUtil=`top -bn1 | grep load | awk '{print $10}'| tr -d ','`
 		#printf "%2.4f\n" "$CPUUtil"
 
 		#echo "Memory Utilization : "
@@ -22,19 +23,21 @@ do
 		#printf "%2.4f\n" "$DiskUtil"
 
 		#echo "Network Utilization : "
-		IncomingPackets=`netstat -s | head -10 | grep 'total packets received' | awk '{print $1}'`
-		OutgoingPackets=`netstat -s | head -10 | grep 'requests sent out' | awk '{print $1}'`
+		#IncomingPackets=`netstat -s | head -10 | grep 'total packets received' | awk '{print $1}'`
+		IncomingPackets=`cat /proc/net/dev | awk '{if(NR==3)print $3}'`
+		#OutgoingPackets=`netstat -s | head -10 | grep 'requests sent out' | awk '{print $1}'`
+		OutgoingPackets=`cat /proc/net/dev | awk '{if(NR==3)print $11}'`
 		TotalPackets=`echo "scale=4;$IncomingPackets+$OutgoingPackets" | bc`
 		NetUtil=`echo "scale=4;$IncomingPackets/$TotalPackets" | bc`
 		#printf "%2.4f\n" "$NetUtil"
 
 		file="resource.db"
-		if [ -e $file ]
-		then
-			`touch "$file"`
-		fi
+		#if [ -e $file ]
+		#then
+		#	`touch "$file"`
+		#fi
 
-		row=`printf "%2.4f,%2.4f,%2.4f,%2.4f" "$CPUUtil" "$MemUtil" "$DiskUtil" "$NetUtil"`
+		row=`printf "%1.2f,%1.2f,%1.2f,%1.2f" "$CPUUtil" "$MemUtil" "$DiskUtil" "$NetUtil"`
 		echo $row >> $file
 
 		`sleep 1`

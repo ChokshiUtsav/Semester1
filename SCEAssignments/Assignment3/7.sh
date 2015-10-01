@@ -4,16 +4,20 @@ IFS=''
 function lsRec(){
 	local temp=$1
 	echo "$temp" ":"
-	readarray -t array <<< "`ls $temp`"
-	for i in ${array[@]}
+	FILES="$temp""/""*"
+	#shopt -s nullglob
+	#readarray -t array <<< "`ls $FILES`"
+	
+	#for i in ${array[@]}
+	for i in $FILES
 	do
 		printf "%s\n" "$i"
 	done
-	printf "\n"
+	#printf "\n"
 
-	for i in ${array[@]}
+	for i in $FILES
 	do
-		i="$temp"/"$i"
+		#i="$temp"/"$i"
 		if [ -d $i ]
 		then	
 			lsRec $i

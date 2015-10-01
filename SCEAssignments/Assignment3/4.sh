@@ -35,7 +35,7 @@ for i in ${array[@]}
 do
 	completeSourcePath=`echo "$sourceDir""/""$i" | tr -s "/"`
 	completeDestPath=`echo "$destDir""/""$i" | tr -s "/"`
-
+	
 	if [ -d $completeSourcePath ]
 	then
 		`mkdir $completeDestPath`

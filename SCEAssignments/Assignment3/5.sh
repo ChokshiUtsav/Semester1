@@ -1,5 +1,8 @@
 #!/bin/bash
 
+OLDIFS=$IFS
+IFS=""
+
 #Validating number of arguments
 if [ $# -ne 1 ]
 then
@@ -29,12 +32,15 @@ fi
  do
  	if [ -d $i ]
  	then
+ 		#oldName=`basename $i`
+ 		#completeOldName=`echo "$dir""/""$oldName" | tr -s '/'`
+ 		#. ./5.sh $completeOldName
  		val=1
  	else
 	 	oldName=`basename $i`
 	 	newName=`echo $oldName | tr A-PQ-Za-pq-z K-ZA-Jk-za-j`
-	 	completeOldName=$dir/$oldName
-	 	completeNewName=$dir/$newName
+	 	completeOldName=`echo "$dir""/""$oldName" | tr -s '/'`
+	 	completeNewName=`echo "$dir""/""$newName" | tr -s '/'`
 	 	#`ls $completeNewName 2> /dev/null`
 	 	if [ -e $completeNewName ]
 	 	then
